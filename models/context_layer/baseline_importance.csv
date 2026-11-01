@@ -1,0 +1,15 @@
+﻿feature,gain
+amount,207211.87702298164
+terminal_known_risk_7,186467.03093779087
+terminal_known_risk_30,14310.733878314495
+terminal_log_count_30,8544.515068233013
+terminal_known_risk_1,5680.618235528469
+terminal_known_support_30,2762.198833167553
+terminal_log_count_7,1519.3741027116776
+terminal_known_support_7,998.3644487857819
+hour_sin,767.717849612236
+hour_cos,570.3709904551506
+terminal_log_count_1,492.16503912210464
+terminal_known_support_1,354.11448073387146
+weekend,135.53817081451416
+log_amount,0.0

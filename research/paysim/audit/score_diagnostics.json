@@ -1,0 +1,8 @@
+{
+  "n": 1272524,
+  "exact_zero": 1251809,
+  "exact_one": 20619,
+  "unique_scores": 16,
+  "score_ge_test_q99": 20619,
+  "score_ge_test_q95": 1272524
+}

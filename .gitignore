@@ -1,0 +1,13 @@
+.venv/
+.local/
+tmp/
+__pycache__/
+*.py[cod]
+*.npz
+*.npy
+*.zip
+*.dump
+*.sql
+*.log
+.idea/
+.DS_Store

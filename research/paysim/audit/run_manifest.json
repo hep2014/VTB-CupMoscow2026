@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "input_hello_world_sha256": "2ee572f75fd2b3f56250745c9afdf6af4686d46c2257a0bb4479feeef99b49b7",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "lightgbm": "4.7.0",
+  "sklearn": "1.9.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runtime_seconds": 89.14783263206482,
+  "synthetic_currency": "PaySim units; not RUB",
+  "original_not_executed_verbatim": "I/O paths and SQL replaced by equivalent COPY read; vectorized decisions; n_jobs=4.",
+  "database_dump_sha256": "9ab243e771159d8b5b8df18f12b671afdbc78f7c47849b1f6ea4aaa68b144a3e"
+}

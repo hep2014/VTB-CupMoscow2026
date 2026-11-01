@@ -1,0 +1,14 @@
+{
+  "test_row_alignment": true,
+  "rows_verified": 1293523,
+  "saved_model_replay_rows": 128,
+  "saved_model_replay_identical": true,
+  "mandatory_hold_always_restricted": true,
+  "misaligned_input_rejected": true,
+  "independent_direct_history_checks": 208,
+  "direct_history_rows": 16,
+  "historical_std_zero_with_fewer_than_two_events": true,
+  "protocol_hash_unchanged": true,
+  "no_balances_or_targets_or_ids_in_features": true,
+  "source_file_deleted": true
+}

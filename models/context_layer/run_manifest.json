@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "protocol_sha256": "ff22bf9bc021db738db37b38660b82817962cbdc09e4d6664b7a81dcc3f06976",
+  "seconds": 48.29413199424744,
+  "source_script_sha256": "ea7826e989cc8cfcaf4d2d2638b2c8cf736a4df92d05e27d6defd2614c5c6b09",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "label_embargo_days": 7,
+  "test_first_scored_after_selection": true,
+  "test_data_not_used_for_selection": true,
+  "independent_simulation_from_paysim": true,
+  "not_an_official_authors_dataset": true
+}

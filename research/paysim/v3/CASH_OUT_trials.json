@@ -1,0 +1,26 @@
+[
+  {
+    "index": 0,
+    "params": {
+      "num_leaves": 15,
+      "scale_pos_weight": 1
+    },
+    "validation_ap": 0.4973382329959648,
+    "validation_auc": 0.88450340884388,
+    "best_iteration": 208,
+    "train_n": 1134332,
+    "validation_n": 212802
+  },
+  {
+    "index": 1,
+    "params": {
+      "num_leaves": 31,
+      "scale_pos_weight": 10
+    },
+    "validation_ap": 0.001071418501705811,
+    "validation_auc": 0.5,
+    "best_iteration": 1,
+    "train_n": 1134332,
+    "validation_n": 212802
+  }
+]

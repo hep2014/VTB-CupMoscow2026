@@ -1,0 +1,225 @@
+{
+  "baseline_threshold": -5.889694422314447,
+  "baseline_validation": {
+    "n": 126733,
+    "fraud": 1125,
+    "legitimate": 125608,
+    "tp": 957,
+    "fp": 51418,
+    "fn": 168,
+    "tn": 74190,
+    "count_recall": 0.8506666666666667,
+    "precision": 0.018272076372315035,
+    "false_intervention_rate": 0.4093529074581237,
+    "interventions": 52375,
+    "fraud_amount": 158608.81,
+    "unflagged_fraud_amount": 6715.57,
+    "amount_recall": 0.957659539845233
+  },
+  "context_threshold": {
+    "parameters": {
+      "expert_weight": 1,
+      "amount_alpha": 0,
+      "guard_logit_margin": null
+    },
+    "threshold": -6.3128517970237,
+    "reference_amount": 45.385000000000005,
+    "validation": {
+      "n": 126733,
+      "fraud": 1125,
+      "legitimate": 125608,
+      "tp": 1011,
+      "fp": 58412,
+      "fn": 114,
+      "tn": 67196,
+      "count_recall": 0.8986666666666666,
+      "precision": 0.017013614257105833,
+      "false_intervention_rate": 0.4650340742627858,
+      "interventions": 59423,
+      "fraud_amount": 158608.81,
+      "unflagged_fraud_amount": 6168.659999999999,
+      "amount_recall": 0.9611077089601769
+    },
+    "subwindows": [
+      {
+        "period": [
+          137,
+          142
+        ],
+        "candidate": {
+          "n": 58626,
+          "fraud": 513,
+          "legitimate": 58113,
+          "tp": 462,
+          "fp": 26698,
+          "fn": 51,
+          "tn": 31415,
+          "count_recall": 0.9005847953216374,
+          "precision": 0.017010309278350514,
+          "false_intervention_rate": 0.45941527713248326,
+          "interventions": 27160,
+          "fraud_amount": 65048.98000000001,
+          "unflagged_fraud_amount": 2635.2000000000003,
+          "amount_recall": 0.9594889881440107
+        },
+        "baseline": {
+          "n": 58626,
+          "fraud": 513,
+          "legitimate": 58113,
+          "tp": 438,
+          "fp": 23914,
+          "fn": 75,
+          "tn": 34199,
+          "count_recall": 0.8538011695906432,
+          "precision": 0.017986202365308804,
+          "false_intervention_rate": 0.41150861253075904,
+          "interventions": 24352,
+          "fraud_amount": 65048.98000000001,
+          "unflagged_fraud_amount": 3066.1000000000004,
+          "amount_recall": 0.9528647489937582
+        }
+      },
+      {
+        "period": [
+          143,
+          149
+        ],
+        "candidate": {
+          "n": 68107,
+          "fraud": 612,
+          "legitimate": 67495,
+          "tp": 549,
+          "fp": 31714,
+          "fn": 63,
+          "tn": 35781,
+          "count_recall": 0.8970588235294118,
+          "precision": 0.017016396491336825,
+          "false_intervention_rate": 0.4698718423586932,
+          "interventions": 32263,
+          "fraud_amount": 93559.83,
+          "unflagged_fraud_amount": 3533.4600000000005,
+          "amount_recall": 0.962233150701535
+        },
+        "baseline": {
+          "n": 68107,
+          "fraud": 612,
+          "legitimate": 67495,
+          "tp": 519,
+          "fp": 27504,
+          "fn": 93,
+          "tn": 39991,
+          "count_recall": 0.8480392156862745,
+          "precision": 0.018520501017021733,
+          "false_intervention_rate": 0.4074968516186384,
+          "interventions": 28023,
+          "fraud_amount": 93559.83,
+          "unflagged_fraud_amount": 3649.47,
+          "amount_recall": 0.9609931954771616
+        }
+      }
+    ]
+  },
+  "adaptive": {
+    "parameters": {
+      "expert_weight": 0.5,
+      "amount_alpha": 0.5,
+      "guard_logit_margin": 2
+    },
+    "threshold": -5.530280024282807,
+    "reference_amount": 45.385000000000005,
+    "validation": {
+      "n": 126733,
+      "fraud": 1125,
+      "legitimate": 125608,
+      "tp": 977,
+      "fp": 38958,
+      "fn": 148,
+      "tn": 86650,
+      "count_recall": 0.8684444444444445,
+      "precision": 0.024464755227244273,
+      "false_intervention_rate": 0.31015540411438763,
+      "interventions": 39935,
+      "fraud_amount": 158608.81,
+      "unflagged_fraud_amount": 6385.8099999999995,
+      "amount_recall": 0.9597386172937052
+    },
+    "subwindows": [
+      {
+        "period": [
+          137,
+          142
+        ],
+        "candidate": {
+          "n": 58626,
+          "fraud": 513,
+          "legitimate": 58113,
+          "tp": 451,
+          "fp": 17863,
+          "fn": 62,
+          "tn": 40250,
+          "count_recall": 0.8791423001949318,
+          "precision": 0.024625969203887738,
+          "false_intervention_rate": 0.30738389000739935,
+          "interventions": 18314,
+          "fraud_amount": 65048.98000000001,
+          "unflagged_fraud_amount": 2755.4500000000007,
+          "amount_recall": 0.9576403811404881
+        },
+        "baseline": {
+          "n": 58626,
+          "fraud": 513,
+          "legitimate": 58113,
+          "tp": 438,
+          "fp": 23914,
+          "fn": 75,
+          "tn": 34199,
+          "count_recall": 0.8538011695906432,
+          "precision": 0.017986202365308804,
+          "false_intervention_rate": 0.41150861253075904,
+          "interventions": 24352,
+          "fraud_amount": 65048.98000000001,
+          "unflagged_fraud_amount": 3066.1000000000004,
+          "amount_recall": 0.9528647489937582
+        }
+      },
+      {
+        "period": [
+          143,
+          149
+        ],
+        "candidate": {
+          "n": 68107,
+          "fraud": 612,
+          "legitimate": 67495,
+          "tp": 526,
+          "fp": 21095,
+          "fn": 86,
+          "tn": 46400,
+          "count_recall": 0.8594771241830066,
+          "precision": 0.024328199435733777,
+          "false_intervention_rate": 0.31254166975331504,
+          "interventions": 21621,
+          "fraud_amount": 93559.83,
+          "unflagged_fraud_amount": 3630.3599999999997,
+          "amount_recall": 0.9611974498029764
+        },
+        "baseline": {
+          "n": 68107,
+          "fraud": 612,
+          "legitimate": 67495,
+          "tp": 519,
+          "fp": 27504,
+          "fn": 93,
+          "tn": 39991,
+          "count_recall": 0.8480392156862745,
+          "precision": 0.018520501017021733,
+          "false_intervention_rate": 0.4074968516186384,
+          "interventions": 28023,
+          "fraud_amount": 93559.83,
+          "unflagged_fraud_amount": 3649.47,
+          "amount_recall": 0.9609931954771616
+        }
+      }
+    ]
+  }
+}

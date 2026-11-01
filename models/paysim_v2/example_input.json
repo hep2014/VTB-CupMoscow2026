@@ -1,0 +1,30 @@
+{
+  "features": {
+    "log_amount": 11.516412734985352,
+    "hour_sin": -0.9659258127212524,
+    "hour_cos": 0.258819043636322,
+    "is_round_100": 0.0,
+    "type_CASH_IN": 0.0,
+    "type_CASH_OUT": 1.0,
+    "type_DEBIT": 0.0,
+    "type_PAYMENT": 0.0,
+    "type_TRANSFER": 0.0,
+    "dest_seen_before": 1.0,
+    "dest_log_count": 0.6931471824645996,
+    "dest_log_mean": 12.594130516052246,
+    "dest_log_std": 0.0,
+    "dest_log_max": 12.594130516052246,
+    "log_amount_over_mean": -1.0777173042297363,
+    "log_amount_over_max": -1.0777173042297363,
+    "dest_transfer_fraction": 0.0,
+    "dest_cashout_fraction": 0.0,
+    "dest_log_age": 1.6094379425048828,
+    "dest_log_gap": 1.6094379425048828,
+    "dest_log_recent_count": 0.6931471824645996,
+    "dest_log_recent_amount": 12.594130516052246
+  },
+  "amount": 100348.35,
+  "history_count": 1,
+  "is_transfer": 0,
+  "mandatory_hold": false
+}

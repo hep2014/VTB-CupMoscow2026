@@ -1,0 +1,38 @@
+[
+  {
+    "file": "cbr_2025q1.html",
+    "url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+    "sha256": "eb299f72842ac7d87670ca162ce413315bbc92a4e501aadd580f818c1f433658",
+    "accessed_on": "2026-10-31"
+  },
+  {
+    "file": "cbr_2025q2.html",
+    "url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+    "sha256": "eb5e4afbf786d1344ccfc85f9b0f7a2d3b797cb6a430305b3ef6cfff2afa0497",
+    "accessed_on": "2026-10-31"
+  },
+  {
+    "file": "cbr_2025q3.html",
+    "url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+    "sha256": "bf98d98d543fe6b12e9a0dae2ebf395a8e5cc77c2d5a635b361504d1a533ec6b",
+    "accessed_on": "2026-10-31"
+  },
+  {
+    "file": "cbr_2026q1.html",
+    "url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+    "sha256": "01d4bdd033811fdad046db2099b0c84db17dedef624471a6601c25630e83e65d",
+    "accessed_on": "2026-10-31"
+  },
+  {
+    "file": "cbr_2026q2.html",
+    "url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+    "sha256": "7dd92c2a69daaf4023e82acd47d7ef61b240839f28ba375a059195d9c475fe27",
+    "accessed_on": "2026-10-31"
+  },
+  {
+    "file": "cbr_client_communication_20260305.html",
+    "url": "https://cbr.ru/press/event/?id=28361",
+    "sha256": "4ec792cece5a1929ed843a86cb3a2ba6f97cdeb50c6b5b3ebaf372bde23b92a9",
+    "accessed_on": "2026-10-31"
+  }
+]

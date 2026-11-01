@@ -1,0 +1,217 @@
+{
+  "threshold_top1_test": 1.0,
+  "threshold_top5_test": 0.0,
+  "original_misaligned_baseline": {
+    "n": 1272524,
+    "fraud_n": 4254,
+    "legitimate_n": 1268270,
+    "blocks": 20619,
+    "delays": 0,
+    "passes": 1251905,
+    "tp_block": 2724,
+    "tp_delay": 0,
+    "fn_pass": 1530,
+    "fp_block": 17895,
+    "fp_delay": 0,
+    "tn_pass": 1250375,
+    "fraud_amount_total": 4303445342.54,
+    "fraud_amount_pass": 1269611289.79,
+    "fraud_amount_block": 3033834052.75,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 3121409386.07,
+    "recall_restriction": 0.6403385049365303,
+    "precision_restriction": 0.1321111596100684,
+    "false_restriction_rate": 0.014109771578607079,
+    "recall_block_only": 0.6403385049365303,
+    "fraud_amount_restriction_share": 0.7049779447086822,
+    "idealized_cost": 1278558789.79,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1278558789.79,
+        "residual_fraud_amount": 1269611289.79
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1278558789.79,
+        "residual_fraud_amount": 1269611289.79
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 1278558789.79,
+        "residual_fraud_amount": 1269611289.79
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 1278558789.79,
+        "residual_fraud_amount": 1269611289.79
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1278558789.79,
+        "residual_fraud_amount": 1269611289.79
+      }
+    ]
+  },
+  "original_misaligned_smart": {
+    "n": 1272524,
+    "fraud_n": 4254,
+    "legitimate_n": 1268270,
+    "blocks": 1554,
+    "delays": 21660,
+    "passes": 1249310,
+    "tp_block": 1517,
+    "tp_delay": 1976,
+    "fn_pass": 761,
+    "fp_block": 37,
+    "fp_delay": 19684,
+    "tn_pass": 1248549,
+    "fraud_amount_total": 4303445342.54,
+    "fraud_amount_pass": 357760353.45,
+    "fraud_amount_block": 2384504099.27,
+    "fraud_amount_delay": 1561180889.8200002,
+    "legitimate_amount_restricted": 5437506260.6,
+    "recall_restriction": 0.8211095439586271,
+    "precision_restriction": 0.1504695442405445,
+    "false_restriction_rate": 0.015549528097329433,
+    "recall_block_only": 0.35660554771979314,
+    "fraud_amount_restriction_share": 0.9168665278693092,
+    "idealized_cost": 358861853.45,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1920042743.2700002,
+        "residual_fraud_amount": 1918941243.2700002
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1139452298.3600001,
+        "residual_fraud_amount": 1138350798.3600001
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 514979942.432,
+        "residual_fraud_amount": 513878442.432
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 374473662.3482,
+        "residual_fraud_amount": 373372162.3482
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 358861853.45,
+        "residual_fraud_amount": 357760353.45
+      }
+    ]
+  },
+  "aligned_baseline": {
+    "n": 1272524,
+    "fraud_n": 4254,
+    "legitimate_n": 1268270,
+    "blocks": 20619,
+    "delays": 0,
+    "passes": 1251905,
+    "tp_block": 2724,
+    "tp_delay": 0,
+    "fn_pass": 1530,
+    "fp_block": 17895,
+    "fp_delay": 0,
+    "tn_pass": 1250375,
+    "fraud_amount_total": 6684733245.82,
+    "fraud_amount_pass": 767268651.9300001,
+    "fraud_amount_block": 5917464593.89,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 6389548008.42,
+    "recall_restriction": 0.6403385049365303,
+    "precision_restriction": 0.1321111596100684,
+    "false_restriction_rate": 0.014109771578607079,
+    "recall_block_only": 0.6403385049365303,
+    "fraud_amount_restriction_share": 0.8852207524646138,
+    "idealized_cost": 776216151.9300001,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 776216151.9300001,
+        "residual_fraud_amount": 767268651.9300001
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 776216151.9300001,
+        "residual_fraud_amount": 767268651.9300001
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 776216151.9300001,
+        "residual_fraud_amount": 767268651.9300001
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 776216151.9300001,
+        "residual_fraud_amount": 767268651.9300001
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 776216151.9300001,
+        "residual_fraud_amount": 767268651.9300001
+      }
+    ]
+  },
+  "aligned_smart_test_quantiles": {
+    "n": 1272524,
+    "fraud_n": 4254,
+    "legitimate_n": 1268270,
+    "blocks": 2620,
+    "delays": 19528,
+    "passes": 1250376,
+    "tp_block": 2620,
+    "tp_delay": 1633,
+    "fn_pass": 1,
+    "fp_block": 0,
+    "fp_delay": 17895,
+    "tn_pass": 1250375,
+    "fraud_amount_total": 6684733245.82,
+    "fraud_amount_pass": 399045.08,
+    "fraud_amount_block": 4880563298.47,
+    "fraud_amount_delay": 1803770902.27,
+    "legitimate_amount_restricted": 6389548008.42,
+    "recall_restriction": 0.9997649271274095,
+    "precision_restriction": 0.19202636806935164,
+    "false_restriction_rate": 0.014109771578607079,
+    "recall_block_only": 0.615890926187118,
+    "fraud_amount_restriction_share": 0.9999403050106376,
+    "idealized_cost": 1375445.08,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1805146347.35,
+        "residual_fraud_amount": 1804169947.35
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 903260896.215,
+        "residual_fraud_amount": 902284496.215
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 181752535.30699998,
+        "residual_fraud_amount": 180776135.30699998
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 19413154.102700017,
+        "residual_fraud_amount": 18436754.102700014
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1375445.08,
+        "residual_fraud_amount": 399045.08
+      }
+    ]
+  },
+  "metadata": {
+    "replay_order": "PostgreSQL COPY physical order",
+    "original_file_modified": false,
+    "n_jobs": 4
+  }
+}

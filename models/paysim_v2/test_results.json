@@ -1,0 +1,100 @@
+{
+  "policies": {
+    "transaction_threshold": {
+      "n": 1293523,
+      "fraud": 4258,
+      "legitimate": 1289265,
+      "tp": 3916,
+      "fp": 260078,
+      "fn": 342,
+      "tn": 1029187,
+      "count_recall": 0.9196806012212306,
+      "precision": 0.014833670462207474,
+      "false_intervention_rate": 0.2017257895002191,
+      "interventions": 263994,
+      "fraud_amount": 6702594765.360001,
+      "unflagged_fraud_amount": 56407702.81,
+      "amount_recall": 0.9915841991370978
+    },
+    "history_threshold": {
+      "n": 1293523,
+      "fraud": 4258,
+      "legitimate": 1289265,
+      "tp": 3901,
+      "fp": 173647,
+      "fn": 357,
+      "tn": 1115618,
+      "count_recall": 0.916157820573039,
+      "precision": 0.021971523193727895,
+      "false_intervention_rate": 0.13468681768294338,
+      "interventions": 177548,
+      "fraud_amount": 6702594765.360001,
+      "unflagged_fraud_amount": 61117096.92999999,
+      "amount_recall": 0.9908815766028609
+    },
+    "adaptive": {
+      "n": 1293523,
+      "fraud": 4258,
+      "legitimate": 1289265,
+      "tp": 3901,
+      "fp": 172942,
+      "fn": 357,
+      "tn": 1116323,
+      "count_recall": 0.916157820573039,
+      "precision": 0.022059114581860745,
+      "false_intervention_rate": 0.1341399944929863,
+      "interventions": 176843,
+      "fraud_amount": 6702594765.360001,
+      "unflagged_fraud_amount": 61117096.92999999,
+      "amount_recall": 0.9908815766028609
+    },
+    "simple_rule": {
+      "n": 1293523,
+      "fraud": 4258,
+      "legitimate": 1289265,
+      "tp": 3929,
+      "fp": 497446,
+      "fn": 329,
+      "tn": 791819,
+      "count_recall": 0.9227336777829968,
+      "precision": 0.007836449763151334,
+      "false_intervention_rate": 0.3858368915622467,
+      "interventions": 501375,
+      "fraud_amount": 6702594765.360001,
+      "unflagged_fraud_amount": 4660553.48,
+      "amount_recall": 0.9993046642914941
+    }
+  },
+  "ranking": {
+    "transaction": {
+      "ap": 0.4175232252026405,
+      "auc": 0.9522487243665803,
+      "brier": 0.002933557355937475
+    },
+    "history": {
+      "ap": 0.4343644825375294,
+      "auc": 0.9725498514773248,
+      "brier": 0.002943279529366509
+    }
+  },
+  "comparisons": {
+    "transaction_threshold": {
+      "fp_relative_change": -0.33503795015341553,
+      "tp_difference": -15,
+      "unflagged_fraud_amount_difference": 4709394.11999999,
+      "strict_hypothesis_confirmed": false
+    },
+    "history_threshold": {
+      "fp_relative_change": -0.004059960724918987,
+      "tp_difference": 0,
+      "unflagged_fraud_amount_difference": 0.0,
+      "strict_hypothesis_confirmed": true
+    },
+    "simple_rule": {
+      "fp_relative_change": -0.6523401535040989,
+      "tp_difference": -28,
+      "unflagged_fraud_amount_difference": 56456543.44999999,
+      "strict_hypothesis_confirmed": false
+    }
+  }
+}

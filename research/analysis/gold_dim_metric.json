@@ -1,0 +1,32 @@
+[
+  {
+    "metric_code": "fraud_count",
+    "metric_name_ru": "Количество ОБДС",
+    "metric_unit": "operations",
+    "is_additive": "t"
+  },
+  {
+    "metric_code": "fraud_volume",
+    "metric_name_ru": "Объем ОБДС",
+    "metric_unit": "thousand_rub",
+    "is_additive": "t"
+  },
+  {
+    "metric_code": "reimbursement_share",
+    "metric_name_ru": "Доля возмещенных (возвращенных) средств",
+    "metric_unit": "percent",
+    "is_additive": "f"
+  },
+  {
+    "metric_code": "prevented_count",
+    "metric_name_ru": "Количество предотвращенных ОБДС",
+    "metric_unit": "operations",
+    "is_additive": "t"
+  },
+  {
+    "metric_code": "prevented_volume",
+    "metric_name_ru": "Объем предотвращенных ОБДС",
+    "metric_unit": "thousand_rub",
+    "is_additive": "t"
+  }
+]

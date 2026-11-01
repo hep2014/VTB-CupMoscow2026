@@ -1,0 +1,87 @@
+{
+  "note": "Fairness audit after first test result; adaptive policy unchanged; comparator thresholds computed only on policy_validation.",
+  "comparators": {
+    "same_targets": {
+      "threshold": -6.062176088191272,
+      "validation": {
+        "n": 126733,
+        "fraud": 1125,
+        "legitimate": 125608,
+        "tp": 979,
+        "fp": 39341,
+        "fn": 146,
+        "tn": 86267,
+        "count_recall": 0.8702222222222222,
+        "precision": 0.02428075396825397,
+        "false_intervention_rate": 0.3132045729571365,
+        "interventions": 40320,
+        "fraud_amount": 158608.81,
+        "unflagged_fraud_amount": 7853.679999999999,
+        "amount_recall": 0.9504839611368373
+      },
+      "test": {
+        "n": 252935,
+        "fraud": 2195,
+        "legitimate": 250740,
+        "tp": 1878,
+        "fp": 84432,
+        "fn": 317,
+        "tn": 166308,
+        "count_recall": 0.8555808656036447,
+        "precision": 0.02175877650330205,
+        "false_intervention_rate": 0.33673127542474274,
+        "interventions": 86310,
+        "fraud_amount": 289975.55,
+        "unflagged_fraud_amount": 17072.93,
+        "amount_recall": 0.9411228636345375
+      },
+      "adaptive_vs_this": {
+        "fp_reduction": 0.03206130377108207,
+        "tp_difference": 6,
+        "unflagged_amount_difference": -5179.4400000000005,
+        "strict_hypothesis_confirmed": true
+      }
+    },
+    "same_validation_outcomes": {
+      "threshold": -6.273294856150769,
+      "validation": {
+        "n": 126733,
+        "fraud": 1125,
+        "legitimate": 125608,
+        "tp": 1002,
+        "fp": 55211,
+        "fn": 123,
+        "tn": 70397,
+        "count_recall": 0.8906666666666667,
+        "precision": 0.017825058260544716,
+        "false_intervention_rate": 0.4395500286605949,
+        "interventions": 56213,
+        "fraud_amount": 158608.81,
+        "unflagged_fraud_amount": 6673.259999999999,
+        "amount_recall": 0.9579262967801097
+      },
+      "test": {
+        "n": 252935,
+        "fraud": 2195,
+        "legitimate": 250740,
+        "tp": 1939,
+        "fp": 116584,
+        "fn": 256,
+        "tn": 134156,
+        "count_recall": 0.883371298405467,
+        "precision": 0.01635969389907444,
+        "false_intervention_rate": 0.46495971923107604,
+        "interventions": 118523,
+        "fraud_amount": 289975.55,
+        "unflagged_fraud_amount": 14079.82,
+        "amount_recall": 0.951444802846309
+      },
+      "adaptive_vs_this": {
+        "fp_reduction": 0.2990032937624374,
+        "tp_difference": -55,
+        "unflagged_amount_difference": -2186.33,
+        "strict_hypothesis_confirmed": false
+      }
+    }
+  }
+}

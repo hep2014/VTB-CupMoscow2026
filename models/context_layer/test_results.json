@@ -1,0 +1,72 @@
+{
+  "policies": {
+    "baseline": {
+      "n": 252935,
+      "fraud": 2195,
+      "legitimate": 250740,
+      "tp": 1841,
+      "fp": 103113,
+      "fn": 354,
+      "tn": 147627,
+      "count_recall": 0.8387243735763098,
+      "precision": 0.017541017969777237,
+      "false_intervention_rate": 0.41123474515434316,
+      "interventions": 104954,
+      "fraud_amount": 289975.55,
+      "unflagged_fraud_amount": 13225.220000000001,
+      "amount_recall": 0.9543919478728464
+    },
+    "context_model": {
+      "n": 252935,
+      "fraud": 2195,
+      "legitimate": 250740,
+      "tp": 1949,
+      "fp": 123019,
+      "fn": 246,
+      "tn": 127721,
+      "count_recall": 0.8879271070615035,
+      "precision": 0.01559599257409897,
+      "false_intervention_rate": 0.49062375368908034,
+      "interventions": 124968,
+      "fraud_amount": 289975.55,
+      "unflagged_fraud_amount": 13409.240000000002,
+      "amount_recall": 0.9537573426449232
+    },
+    "adaptive": {
+      "n": 252935,
+      "fraud": 2195,
+      "legitimate": 250740,
+      "tp": 1884,
+      "fp": 81725,
+      "fn": 311,
+      "tn": 169015,
+      "count_recall": 0.8583143507972665,
+      "precision": 0.02253345931658075,
+      "false_intervention_rate": 0.3259352317141262,
+      "interventions": 83609,
+      "fraud_amount": 289975.55,
+      "unflagged_fraud_amount": 11893.49,
+      "amount_recall": 0.9589845074869245
+    }
+  },
+  "comparisons": {
+    "baseline": {
+      "fp_reduction": 0.20742292436453214,
+      "tp_difference": 43,
+      "unflagged_amount_difference": -1331.7300000000014,
+      "strict_hypothesis_confirmed": true
+    },
+    "context_model": {
+      "fp_reduction": 0.33567172550581614,
+      "tp_difference": -65,
+      "unflagged_amount_difference": -1515.7500000000018,
+      "strict_hypothesis_confirmed": false
+    }
+  },
+  "ranking": {
+    "baseline_ap": 0.6098228190501572,
+    "context_ap": 0.7478063025478828,
+    "baseline_auc": 0.8529249685168803,
+    "context_auc": 0.8910206090655031
+  }
+}

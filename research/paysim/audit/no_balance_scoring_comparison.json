@@ -1,0 +1,65 @@
+{
+  "model_metrics": {
+    "roc_auc": 0.8215034547567753,
+    "average_precision": 0.07467330403625852,
+    "train_n": 3792821,
+    "train_fraud_n": 3175,
+    "test_n": 1293523,
+    "test_fraud_n": 4258,
+    "feature_count": 13,
+    "fit_seconds": 5.8280627727508545
+  },
+  "at_05": {
+    "n": 1293523,
+    "fraud_n": 4258,
+    "legitimate_n": 1289265,
+    "blocks": 23957,
+    "delays": 0,
+    "passes": 1269566,
+    "tp_block": 2579,
+    "tp_delay": 0,
+    "fn_pass": 1679,
+    "fp_block": 21378,
+    "fp_delay": 0,
+    "tn_pass": 1267887,
+    "fraud_amount_total": 6702594765.360001,
+    "fraud_amount_pass": 1286852548.77,
+    "fraud_amount_block": 5415742216.59,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 7576699417.58,
+    "recall_restriction": 0.6056834194457492,
+    "precision_restriction": 0.10765120841507701,
+    "false_restriction_rate": 0.016581540645251365,
+    "recall_block_only": 0.6056834194457492,
+    "fraud_amount_restriction_share": 0.808006810225102,
+    "idealized_cost": 1297541548.77,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1297541548.77,
+        "residual_fraud_amount": 1286852548.77
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1297541548.77,
+        "residual_fraud_amount": 1286852548.77
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 1297541548.77,
+        "residual_fraud_amount": 1286852548.77
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 1297541548.77,
+        "residual_fraud_amount": 1286852548.77
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1297541548.77,
+        "residual_fraud_amount": 1286852548.77
+      }
+    ]
+  },
+  "note": "Scoring-only ablation; smart policy is not applied because it uses the removed balance signal."
+}

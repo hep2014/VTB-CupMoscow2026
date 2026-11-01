@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-01",
+  "dataset": "Independent FDH-method simulation in supplied dump, seed 0",
+  "not_official_authors_data": true,
+  "new_test_not_previously_scored": true,
+  "purpose": "Test contextual rescoring/decision overlay with genuine repeated customer history; do not replace PaySim results.",
+  "splits": {
+    "train": [
+      30,
+      82
+    ],
+    "model_validation": [
+      90,
+      109
+    ],
+    "calibration": [
+      117,
+      129
+    ],
+    "policy_validation": [
+      137,
+      149
+    ],
+    "test": [
+      157,
+      182
+    ]
+  },
+  "warmup_and_embargo_days_excluded": true,
+  "label_delay_days": 7,
+  "mature_labels": "At day D only fraud labels for days < D-7 are available",
+  "transaction_history_delay_days": 1,
+  "history": "At day D use amounts from days < D-1, ensuring at least a full day of availability delay.",
+  "oracle_features_forbidden": [
+    "base_tx_amount",
+    "scenario_mask",
+    "tx_fraud_scenario",
+    "scenario3_hits",
+    "generator_customer_profiles"
+  ],
+  "raw_ids_in_predictors": false,
+  "base_features": [
+    "amount",
+    "time",
+    "terminal_history",
+    "terminal_fraud_rates_known_with_delay"
+  ],
+  "extra_context": "Observed customer spending history, calculated without using its current label.",
+  "baseline_validation_targets": {
+    "count_recall": 0.85,
+    "amount_recall": 0.95
+  },
+  "policy_subwindows": [
+    [
+      137,
+      142
+    ],
+    [
+      143,
+      149
+    ]
+  ],
+  "policy_selection": "Minimum FP while retaining at least baseline TP and fraud amount in each policy subwindow.",
+  "policy_grid": {
+    "expert_weight": [
+      0,
+      0.5,
+      1
+    ],
+    "amount_alpha": [
+      0,
+      0.25,
+      0.5
+    ],
+    "guard_logit_margin": [
+      2,
+      4,
+      null
+    ]
+  },
+  "model_grid": [
+    {
+      "num_leaves": 15
+    },
+    {
+      "num_leaves": 31
+    }
+  ],
+  "common": {
+    "n_estimators": 800,
+    "learning_rate": 0.04,
+    "min_child_samples": 150,
+    "min_child_weight": 5,
+    "reg_lambda": 10,
+    "max_delta_step": 1,
+    "n_jobs": 4,
+    "random_state": 20261101
+  },
+  "early_stopping": 60,
+  "primary_hypothesis": "Fewer FP and no fewer fraud TP and no more unflagged fraud amount than a tuned transaction+terminal baseline on the same test.",
+  "all_interventions_counted": true,
+  "no_perfect_confirmation_assumption": true
+}

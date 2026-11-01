@@ -1,0 +1,71 @@
+{
+  "high_vs_baseline": {
+    "day_blocks": 26,
+    "draws": 2000,
+    "fp_difference_interval": [
+      -21933.0,
+      -20822.9
+    ],
+    "tp_difference_interval": [
+      14.0,
+      69.0
+    ],
+    "unflagged_amount_difference_interval": [
+      -3136.0585000000005,
+      604.1844999999993
+    ],
+    "changes": {
+      "fp_removed": 35276,
+      "fp_added": 13888,
+      "fraud_recovered": 108,
+      "fraud_lost": 65
+    },
+    "limitation": "Descriptive paired resampling of days in one independent synthetic holdout; not real-bank evidence or independent simulator seeds."
+  },
+  "low_primary_vs_baseline": {
+    "day_blocks": 26,
+    "draws": 2000,
+    "fp_difference_interval": [
+      -128.0,
+      33.0
+    ],
+    "tp_difference_interval": [
+      182.0,
+      255.0
+    ],
+    "unflagged_amount_difference_interval": [
+      -27632.804999999997,
+      -19983.269250000005
+    ],
+    "changes": {
+      "fp_removed": 490,
+      "fp_added": 445,
+      "fraud_recovered": 237,
+      "fraud_lost": 19
+    },
+    "limitation": "Descriptive paired resampling of days in one independent synthetic holdout; not real-bank evidence or independent simulator seeds."
+  },
+  "low_primary_vs_context": {
+    "day_blocks": 26,
+    "draws": 2000,
+    "fp_difference_interval": [
+      -27.0,
+      32.0
+    ],
+    "tp_difference_interval": [
+      -11.0,
+      1.0
+    ],
+    "unflagged_amount_difference_interval": [
+      -1187.9174999999998,
+      196.03649999999865
+    ],
+    "changes": {
+      "fp_removed": 99,
+      "fp_added": 103,
+      "fraud_recovered": 3,
+      "fraud_lost": 8
+    },
+    "limitation": "Descriptive paired resampling of days in one independent synthetic holdout; not real-bank evidence or independent simulator seeds."
+  }
+}

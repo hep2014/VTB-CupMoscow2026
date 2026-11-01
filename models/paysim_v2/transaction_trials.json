@@ -1,0 +1,35 @@
+[
+  {
+    "index": 0,
+    "params": {
+      "num_leaves": 15,
+      "scale_pos_weight": 1
+    },
+    "best_iteration": 320,
+    "validation_ap": 0.38688721287816613,
+    "validation_auc": 0.9534443668017378,
+    "finite_scores": true
+  },
+  {
+    "index": 1,
+    "params": {
+      "num_leaves": 31,
+      "scale_pos_weight": 1
+    },
+    "best_iteration": 317,
+    "validation_ap": 0.3835193059298218,
+    "validation_auc": 0.9513515728137064,
+    "finite_scores": true
+  },
+  {
+    "index": 2,
+    "params": {
+      "num_leaves": 31,
+      "scale_pos_weight": 10
+    },
+    "best_iteration": 311,
+    "validation_ap": 0.38538992523502097,
+    "validation_auc": 0.9521322381061015,
+    "finite_scores": true
+  }
+]

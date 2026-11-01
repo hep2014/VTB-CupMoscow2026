@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-01",
+  "seconds": 17.784974813461304,
+  "protocol_sha256": "0936c6a013340340287ff06e2cde353ba3351217051ac4e401ad8ad27ec5baae",
+  "source_script_sha256": "26b5598e6e411aff009d13213ad5710844dcd96768e28a5100ff6628ac214664",
+  "baseline_frozen": true,
+  "selection_before_test": true,
+  "test_reused": true,
+  "balances_used": false,
+  "original_deleted": true
+}

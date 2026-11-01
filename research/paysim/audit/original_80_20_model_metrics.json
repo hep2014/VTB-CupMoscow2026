@@ -1,0 +1,10 @@
+{
+  "roc_auc": 0.813216765828692,
+  "average_precision": 0.08582833614578202,
+  "train_n": 5090096,
+  "train_fraud_n": 3959,
+  "test_n": 1272524,
+  "test_fraud_n": 4254,
+  "feature_count": 17,
+  "fit_seconds": 7.4037041664123535
+}

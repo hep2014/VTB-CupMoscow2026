@@ -1,0 +1,32 @@
+{
+  "train": {
+    "n": 3190681,
+    "fraud": 2719,
+    "min_step": 1,
+    "max_step": 240
+  },
+  "model_validation": {
+    "n": 602140,
+    "fraud": 456,
+    "min_step": 241,
+    "max_step": 280
+  },
+  "calibration": {
+    "n": 595939,
+    "fraud": 406,
+    "min_step": 281,
+    "max_step": 317
+  },
+  "policy_validation": {
+    "n": 680337,
+    "fraud": 374,
+    "min_step": 318,
+    "max_step": 354
+  },
+  "test": {
+    "n": 1293523,
+    "fraud": 4258,
+    "min_step": 355,
+    "max_step": 743
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "status": "Scenario assumptions, not measured bank savings",
+  "parameters": {
+    "observedCbrSbpRub": 2741024490,
+    "marketRub": 2741000000,
+    "marketPeriod": "II квартал 2026",
+    "marketScope": "Россия, физические лица, СБП",
+    "cbrUrl": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+    "budget": {
+      "personnelRub": 24831250,
+      "otherRub": 12600000,
+      "reserveRub": 5500000,
+      "capRub": 50000000
+    },
+    "scenarios": [
+      {
+        "key": "conservative",
+        "name": "Консервативный",
+        "bankShare": 0.1,
+        "additionalPrevention": 0.06
+      },
+      {
+        "key": "base",
+        "name": "Базовый",
+        "bankShare": 0.15,
+        "additionalPrevention": 0.12
+      },
+      {
+        "key": "optimistic",
+        "name": "Оптимистичный",
+        "bankShare": 0.2,
+        "additionalPrevention": 0.18
+      }
+    ],
+    "sensitivity": {
+      "bankShares": [
+        0.1,
+        0.15,
+        0.2
+      ],
+      "preventionRates": [
+        0.06,
+        0.12,
+        0.18
+      ]
+    },
+    "bank": {
+      "compensationShare": null,
+      "quarterlyFewerCases": null,
+      "costPerCaseRub": null,
+      "additionalQuarterlyOpExRub": null,
+      "quarterlyMaintenanceRub": null,
+      "quarterlyRetentionBenefitRub": null,
+      "actualInvestmentRub": null,
+      "horizonQuarters": null
+    }
+  },
+  "budget": {
+    "personnelRub": 24831250,
+    "otherRub": 12600000,
+    "reserveRub": 5500000,
+    "capRub": 50000000,
+    "plannedRub": 37431250,
+    "totalRub": 42931250,
+    "headroomRub": 7068750
+  },
+  "scenarios": [
+    {
+      "key": "conservative",
+      "name": "Консервативный",
+      "bankShare": 0.1,
+      "additionalPrevention": 0.06,
+      "customerFundsRub": 16446000
+    },
+    {
+      "key": "base",
+      "name": "Базовый",
+      "bankShare": 0.15,
+      "additionalPrevention": 0.12,
+      "customerFundsRub": 49338000
+    },
+    {
+      "key": "optimistic",
+      "name": "Оптимистичный",
+      "bankShare": 0.2,
+      "additionalPrevention": 0.18,
+      "customerFundsRub": 98676000
+    }
+  ],
+  "base": {
+    "key": "base",
+    "name": "Базовый",
+    "bankShare": 0.15,
+    "additionalPrevention": 0.12,
+    "customerFundsRub": 49338000
+  },
+  "sensitivity": [
+    {
+      "bankShare": 0.1,
+      "values": [
+        {
+          "additionalPrevention": 0.06,
+          "customerFundsRub": 16446000
+        },
+        {
+          "additionalPrevention": 0.12,
+          "customerFundsRub": 32892000
+        },
+        {
+          "additionalPrevention": 0.18,
+          "customerFundsRub": 49338000
+        }
+      ]
+    },
+    {
+      "bankShare": 0.15,
+      "values": [
+        {
+          "additionalPrevention": 0.06,
+          "customerFundsRub": 24669000
+        },
+        {
+          "additionalPrevention": 0.12,
+          "customerFundsRub": 49338000
+        },
+        {
+          "additionalPrevention": 0.18,
+          "customerFundsRub": 74007000
+        }
+      ]
+    },
+    {
+      "bankShare": 0.2,
+      "values": [
+        {
+          "additionalPrevention": 0.06,
+          "customerFundsRub": 32892000
+        },
+        {
+          "additionalPrevention": 0.12,
+          "customerFundsRub": 65784000
+        },
+        {
+          "additionalPrevention": 0.18,
+          "customerFundsRub": 98676000
+        }
+      ]
+    }
+  ],
+  "experiment": {
+    "recallBaseline": 0.6482915717539863,
+    "recallTrustflow": 0.7476082004555809,
+    "recallGainPp": 9.931662870159453,
+    "tpGain": 218,
+    "unflaggedBaseline": 53494.13,
+    "unflaggedTrustflow": 29640.9,
+    "unflaggedReduction": 0.44590369074139535
+  },
+  "evidence": {
+    "mode": "low-friction",
+    "validationFprTarget": 0.005,
+    "policies": {
+      "baseline": {
+        "n": 252935,
+        "fraud": 2195,
+        "legitimate": 250740,
+        "tp": 1423,
+        "fp": 1399,
+        "fn": 772,
+        "tn": 249341,
+        "count_recall": 0.6482915717539863,
+        "precision": 0.5042523033309709,
+        "false_intervention_rate": 0.0055794847252133685,
+        "interventions": 2822,
+        "fraud_amount": 289975.55,
+        "unflagged_fraud_amount": 53494.13,
+        "amount_recall": 0.8155219293488709
+      },
+      "context_model": {
+        "n": 252935,
+        "fraud": 2195,
+        "legitimate": 250740,
+        "tp": 1646,
+        "fp": 1350,
+        "fn": 549,
+        "tn": 249390,
+        "count_recall": 0.7498861047835991,
+        "precision": 0.5493991989319092,
+        "false_intervention_rate": 0.005384063173007897,
+        "interventions": 2996,
+        "fraud_amount": 289975.55,
+        "unflagged_fraud_amount": 30033.87,
+        "amount_recall": 0.8964261986915794
+      },
+      "adaptive": {
+        "n": 252935,
+        "fraud": 2195,
+        "legitimate": 250740,
+        "tp": 1641,
+        "fp": 1354,
+        "fn": 554,
+        "tn": 249386,
+        "count_recall": 0.7476082004555809,
+        "precision": 0.5479131886477463,
+        "false_intervention_rate": 0.005400015952779772,
+        "interventions": 2995,
+        "fraud_amount": 289975.55,
+        "unflagged_fraud_amount": 29640.9,
+        "amount_recall": 0.8977813819130613
+      }
+    },
+    "fpDifferenceInterval": [
+      -128,
+      33
+    ],
+    "testDays": [
+      157,
+      182
+    ]
+  },
+  "bankQuarter": {
+    "calculated": false,
+    "missing": [
+      "compensationShare",
+      "quarterlyFewerCases",
+      "costPerCaseRub",
+      "additionalQuarterlyOpExRub",
+      "quarterlyMaintenanceRub",
+      "quarterlyRetentionBenefitRub"
+    ],
+    "value": null
+  },
+  "bankReturn": {
+    "calculated": false,
+    "roi": null,
+    "paybackQuarter": null,
+    "reason": "Нужны вложения, банковские денежные потоки и горизонт"
+  },
+  "onePpPreventionRub": 4111500,
+  "onePpBankShareRub": 3289200
+}

@@ -1,0 +1,10 @@
+{
+  "action": "PASS",
+  "intervene": false,
+  "reason": "BELOW_THRESHOLD",
+  "baseline_intervene": false,
+  "priority": -6.311583955004404,
+  "baseline_risk": 0.002728022000512334,
+  "context_risk": 0.001142210551565041,
+  "threshold": -2.519139393514899
+}

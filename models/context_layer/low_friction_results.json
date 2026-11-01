@@ -1,0 +1,203 @@
+{
+  "designated_primary_cap": 0.005,
+  "results": {
+    "0.001": {
+      "policies": {
+        "baseline": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1075,
+          "fp": 232,
+          "fn": 1120,
+          "tn": 250508,
+          "count_recall": 0.489749430523918,
+          "precision": 0.8224942616679418,
+          "false_intervention_rate": 0.0009252612267687645,
+          "interventions": 1307,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 150081.19,
+          "amount_recall": 0.4824350190904026
+        },
+        "context_model": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1548,
+          "fp": 248,
+          "fn": 647,
+          "tn": 250492,
+          "count_recall": 0.705239179954442,
+          "precision": 0.8619153674832962,
+          "false_intervention_rate": 0.0009890723458562654,
+          "interventions": 1796,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 38277.46000000001,
+          "amount_recall": 0.867997629455311
+        },
+        "adaptive": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1549,
+          "fp": 266,
+          "fn": 646,
+          "tn": 250474,
+          "count_recall": 0.7056947608200456,
+          "precision": 0.8534435261707989,
+          "false_intervention_rate": 0.0010608598548297041,
+          "interventions": 1815,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 37304.77,
+          "amount_recall": 0.871352015713049
+        }
+      },
+      "comparisons": {
+        "baseline": {
+          "fp_reduction": -0.14655172413793105,
+          "tp_difference": 474,
+          "unflagged_amount_difference": -112776.42000000001,
+          "strict_hypothesis_confirmed": false
+        },
+        "context_model": {
+          "fp_reduction": -0.07258064516129026,
+          "tp_difference": 1,
+          "unflagged_amount_difference": -972.6900000000096,
+          "strict_hypothesis_confirmed": false
+        }
+      }
+    },
+    "0.005": {
+      "policies": {
+        "baseline": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1423,
+          "fp": 1399,
+          "fn": 772,
+          "tn": 249341,
+          "count_recall": 0.6482915717539863,
+          "precision": 0.5042523033309709,
+          "false_intervention_rate": 0.0055794847252133685,
+          "interventions": 2822,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 53494.13,
+          "amount_recall": 0.8155219293488709
+        },
+        "context_model": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1646,
+          "fp": 1350,
+          "fn": 549,
+          "tn": 249390,
+          "count_recall": 0.7498861047835991,
+          "precision": 0.5493991989319092,
+          "false_intervention_rate": 0.005384063173007897,
+          "interventions": 2996,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 30033.87,
+          "amount_recall": 0.8964261986915794
+        },
+        "adaptive": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1641,
+          "fp": 1354,
+          "fn": 554,
+          "tn": 249386,
+          "count_recall": 0.7476082004555809,
+          "precision": 0.5479131886477463,
+          "false_intervention_rate": 0.005400015952779772,
+          "interventions": 2995,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 29640.9,
+          "amount_recall": 0.8977813819130613
+        }
+      },
+      "comparisons": {
+        "baseline": {
+          "fp_reduction": 0.03216583273766982,
+          "tp_difference": 218,
+          "unflagged_amount_difference": -23853.229999999996,
+          "strict_hypothesis_confirmed": true
+        },
+        "context_model": {
+          "fp_reduction": -0.002962962962963056,
+          "tp_difference": -5,
+          "unflagged_amount_difference": -392.9699999999975,
+          "strict_hypothesis_confirmed": false
+        }
+      }
+    },
+    "0.01": {
+      "policies": {
+        "baseline": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1447,
+          "fp": 2717,
+          "fn": 748,
+          "tn": 248023,
+          "count_recall": 0.6592255125284738,
+          "precision": 0.3475024015369837,
+          "false_intervention_rate": 0.010835925660046264,
+          "interventions": 4164,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 49526.55,
+          "amount_recall": 0.8292043932669496
+        },
+        "context_model": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1678,
+          "fp": 2611,
+          "fn": 517,
+          "tn": 248129,
+          "count_recall": 0.7644646924829157,
+          "precision": 0.391233387736069,
+          "false_intervention_rate": 0.010413176996091568,
+          "interventions": 4289,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 27983.78,
+          "amount_recall": 0.9034960706169883
+        },
+        "adaptive": {
+          "n": 252935,
+          "fraud": 2195,
+          "legitimate": 250740,
+          "tp": 1678,
+          "fp": 2595,
+          "fn": 517,
+          "tn": 248145,
+          "count_recall": 0.7644646924829157,
+          "precision": 0.39269833840393165,
+          "false_intervention_rate": 0.010349365877004068,
+          "interventions": 4273,
+          "fraud_amount": 289975.55,
+          "unflagged_fraud_amount": 27983.78,
+          "amount_recall": 0.9034960706169883
+        }
+      },
+      "comparisons": {
+        "baseline": {
+          "fp_reduction": 0.044902465955097504,
+          "tp_difference": 231,
+          "unflagged_amount_difference": -21542.770000000004,
+          "strict_hypothesis_confirmed": true
+        },
+        "context_model": {
+          "fp_reduction": 0.006127920337035575,
+          "tp_difference": 0,
+          "unflagged_amount_difference": 0.0,
+          "strict_hypothesis_confirmed": true
+        }
+      }
+    }
+  }
+}

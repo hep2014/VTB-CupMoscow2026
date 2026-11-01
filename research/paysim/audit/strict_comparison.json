@@ -1,0 +1,224 @@
+{
+  "protocol": {
+    "cut_train_validation_step": 281,
+    "cut_validation_test_step": 355,
+    "train_n": 3792821,
+    "validation_n": 1276276,
+    "test_n": 1293523,
+    "train_fraud": 3175,
+    "validation_fraud": 780,
+    "test_fraud": 4258,
+    "history": "only steps strictly before current step",
+    "test_threshold_calibration": "validation only"
+  },
+  "validation_top1": 0.03796122225616229,
+  "validation_top5": 9.059919481690473e-18,
+  "baseline_at_05": {
+    "n": 1293523,
+    "fraud_n": 4258,
+    "legitimate_n": 1289265,
+    "blocks": 16237,
+    "delays": 0,
+    "passes": 1277286,
+    "tp_block": 3650,
+    "tp_delay": 0,
+    "fn_pass": 608,
+    "fp_block": 12587,
+    "fp_delay": 0,
+    "tn_pass": 1276678,
+    "fraud_amount_total": 6702594765.360001,
+    "fraud_amount_pass": 1269655581.4899998,
+    "fraud_amount_block": 5432939183.87,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 2511563880.5,
+    "recall_restriction": 0.8572099577266322,
+    "precision_restriction": 0.22479522079201822,
+    "false_restriction_rate": 0.009762926938992372,
+    "recall_block_only": 0.8572099577266322,
+    "fraud_amount_restriction_share": 0.8105725281122815,
+    "idealized_cost": 1275949081.4899998,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1275949081.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1275949081.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 1275949081.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 1275949081.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1275949081.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      }
+    ]
+  },
+  "smart_validation_quantiles": {
+    "n": 1293523,
+    "fraud_n": 4258,
+    "legitimate_n": 1289265,
+    "blocks": 3545,
+    "delays": 13875,
+    "passes": 1276103,
+    "tp_block": 3545,
+    "tp_delay": 105,
+    "fn_pass": 608,
+    "fp_block": 0,
+    "fp_delay": 13770,
+    "tn_pass": 1275495,
+    "fraud_amount_total": 6702594765.360001,
+    "fraud_amount_pass": 1269655581.4899998,
+    "fraud_amount_block": 4395638843.37,
+    "fraud_amount_delay": 1037300340.5,
+    "legitimate_amount_restricted": 2558088593.46,
+    "recall_restriction": 0.8572099577266322,
+    "precision_restriction": 0.2095292766934558,
+    "false_restriction_rate": 0.010680504008097638,
+    "recall_block_only": 0.8325504931892908,
+    "fraud_amount_restriction_share": 0.8105725281122815,
+    "idealized_cost": 1270349331.4899998,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 2307649671.99,
+        "residual_fraud_amount": 2306955921.99
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1788999501.7399998,
+        "residual_fraud_amount": 1788305751.7399998
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 1374079365.5399997,
+        "residual_fraud_amount": 1373385615.5399997
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 1280722334.8949997,
+        "residual_fraud_amount": 1280028584.8949997
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1270349331.4899998,
+        "residual_fraud_amount": 1269655581.4899998
+      }
+    ]
+  },
+  "simple_rule_empty_and_transfer_or_cashout": {
+    "n": 1293523,
+    "fraud_n": 4258,
+    "legitimate_n": 1289265,
+    "blocks": 4153,
+    "delays": 0,
+    "passes": 1289370,
+    "tp_block": 4153,
+    "tp_delay": 0,
+    "fn_pass": 105,
+    "fp_block": 0,
+    "fp_delay": 0,
+    "tn_pass": 1289265,
+    "fraud_amount_total": 6702594765.360001,
+    "fraud_amount_pass": 1037300340.5,
+    "fraud_amount_block": 5665294424.860001,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 0.0,
+    "recall_restriction": 0.9753405354626585,
+    "precision_restriction": 1.0,
+    "false_restriction_rate": 0.0,
+    "recall_block_only": 0.9753405354626585,
+    "fraud_amount_restriction_share": 0.8452389892551879,
+    "idealized_cost": 1037300340.5,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 1037300340.5,
+        "residual_fraud_amount": 1037300340.5
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 1037300340.5,
+        "residual_fraud_amount": 1037300340.5
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 1037300340.5,
+        "residual_fraud_amount": 1037300340.5
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 1037300340.5,
+        "residual_fraud_amount": 1037300340.5
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 1037300340.5,
+        "residual_fraud_amount": 1037300340.5
+      }
+    ]
+  },
+  "original_flag_rule": {
+    "n": 1293523,
+    "fraud_n": 4258,
+    "legitimate_n": 1289265,
+    "blocks": 13,
+    "delays": 0,
+    "passes": 1293510,
+    "tp_block": 13,
+    "tp_delay": 0,
+    "fn_pass": 4245,
+    "fp_block": 0,
+    "fp_delay": 0,
+    "tn_pass": 1289265,
+    "fraud_amount_total": 6702594765.360001,
+    "fraud_amount_pass": 6631642721.24,
+    "fraud_amount_block": 70952044.11999999,
+    "fraud_amount_delay": 0.0,
+    "legitimate_amount_restricted": 0.0,
+    "recall_restriction": 0.0030530765617660873,
+    "precision_restriction": 1.0,
+    "false_restriction_rate": 0.0,
+    "recall_block_only": 0.0030530765617660873,
+    "fraud_amount_restriction_share": 0.010585757695913623,
+    "idealized_cost": 6631642721.24,
+    "delay_sensitivity": [
+      {
+        "q_fraud_stopped": 0.0,
+        "cost": 6631642721.24,
+        "residual_fraud_amount": 6631642721.24
+      },
+      {
+        "q_fraud_stopped": 0.5,
+        "cost": 6631642721.24,
+        "residual_fraud_amount": 6631642721.24
+      },
+      {
+        "q_fraud_stopped": 0.9,
+        "cost": 6631642721.24,
+        "residual_fraud_amount": 6631642721.24
+      },
+      {
+        "q_fraud_stopped": 0.99,
+        "cost": 6631642721.24,
+        "residual_fraud_amount": 6631642721.24
+      },
+      {
+        "q_fraud_stopped": 1.0,
+        "cost": 6631642721.24,
+        "residual_fraud_amount": 6631642721.24
+      }
+    ]
+  }
+}

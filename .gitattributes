@@ -1,0 +1,10 @@
+# Preserve the exact bytes used by frozen experiment hashes and calibrations.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.json -text
+*.csv -text
+*.txt -text
+*.png binary

@@ -1,0 +1,10 @@
+{
+  "rows": 1781887,
+  "fraud": 14753,
+  "customers": 4995,
+  "terminals": 10000,
+  "min_day": 0,
+  "max_day": 182,
+  "min_events_customer": 1,
+  "median_events_customer": 354.0
+}

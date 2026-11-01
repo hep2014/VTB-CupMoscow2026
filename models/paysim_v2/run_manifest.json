@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-01",
+  "seconds": 245.11398720741272,
+  "protocol_sha256": "a4363fadb260d99d2392750ddcbfe952f3e3b52580e539963720a677b7245185",
+  "source_script_sha256": "3f939316082cf32c82245c4aa36b5f751e6eac02b9bbfb82976d4e3a72e1b71e",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "lightgbm": "4.7.0",
+  "sklearn": "1.9.1",
+  "test_reused": true,
+  "balances_used": false,
+  "all_interventions_counted_as_friction": true,
+  "mandatory_hold_override_test_passed": true,
+  "hello_world_deleted": true
+}

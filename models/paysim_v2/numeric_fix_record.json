@@ -1,0 +1,7 @@
+{
+  "reason": "Cumulative sum minus current bucket created numerical nonzero historical variance for 140954 records with fewer than two prior events.",
+  "fix": "Prior aggregates use shifted inclusive cumulative sums; standard deviation explicitly zero when fewer than two historical events.",
+  "selection_targets_changed": false,
+  "first_debug_test_results_seen": true,
+  "first_debug_not_a_confirmatory_result": true
+}

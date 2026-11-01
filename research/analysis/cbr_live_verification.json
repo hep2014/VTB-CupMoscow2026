@@ -1,0 +1,986 @@
+{
+  "checked": 140,
+  "matches": 140,
+  "checks": [
+    {
+      "observation_id": "2b4afa6e-a39f-5c3f-a098-d8003c34dd99",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "296591",
+      "live_value": "296591"
+    },
+    {
+      "observation_id": "c2bfdfd3-5223-59da-bc3e-b4f3d9408fb0",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "6856684.43",
+      "live_value": "6856684.43"
+    },
+    {
+      "observation_id": "603f7a08-7b4f-568c-83d8-bfd0d7ae6b43",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "7.6",
+      "live_value": "7.6"
+    },
+    {
+      "observation_id": "556532ce-f03f-541a-aa0f-cad15de18416",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "43831404",
+      "live_value": "43831404"
+    },
+    {
+      "observation_id": "665085f4-8abd-531c-9042-2cd76c709af1",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "4607333021.16",
+      "live_value": "4607333021.16"
+    },
+    {
+      "observation_id": "13a33ae6-201e-557e-9ccf-c0338b0ea39e",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "212459",
+      "live_value": "212459"
+    },
+    {
+      "observation_id": "dddf0251-e1f9-583e-9b2d-24a671960ba4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "38272",
+      "live_value": "38272"
+    },
+    {
+      "observation_id": "cb3be695-47f8-5d67-a8e8-291073221bba",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "43349",
+      "live_value": "43349"
+    },
+    {
+      "observation_id": "9bb903b0-9822-55a3-b14b-cad4da2d3fdb",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "1960",
+      "live_value": "1960"
+    },
+    {
+      "observation_id": "c4193e98-dddc-55c5-977c-2810a7a7f5b4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "64",
+      "live_value": "64"
+    },
+    {
+      "observation_id": "bd1b5839-6990-5236-94d3-3fbb32f49e88",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "1736075.33",
+      "live_value": "1736075.33"
+    },
+    {
+      "observation_id": "f01c4efc-96c5-5e1a-8256-15e92ace3e35",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "2903273.23",
+      "live_value": "2903273.23"
+    },
+    {
+      "observation_id": "24e5112d-c021-52a9-a7e5-f89ef3ca1e79",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "2008534.55",
+      "live_value": "2008534.55"
+    },
+    {
+      "observation_id": "a1f2f572-a720-59f1-b92d-e8336a1b3d6a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "31154.95",
+      "live_value": "31154.95"
+    },
+    {
+      "observation_id": "8d35d550-176d-5751-8475-5886ba799e13",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "11818.57",
+      "live_value": "11818.57"
+    },
+    {
+      "observation_id": "37b17e8b-74bc-59ed-bc18-1d730bcf2ca4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "8.8",
+      "live_value": "8.8"
+    },
+    {
+      "observation_id": "d90a7c8c-7b45-5257-a8fd-a18a10babbaf",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "8.7",
+      "live_value": "8.7"
+    },
+    {
+      "observation_id": "2b0dd584-411a-51a6-acc4-e955d43ceab3",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "5.3",
+      "live_value": "5.3"
+    },
+    {
+      "observation_id": "9f0a5def-a76c-57f2-8316-c7b357992746",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "0.6",
+      "live_value": "0.6"
+    },
+    {
+      "observation_id": "5a79e38a-9e63-54ea-8351-82a286834f0c",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "65927a92-7ddb-5903-822e-d0e27cb8f23a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "456",
+      "live_value": "456"
+    },
+    {
+      "observation_id": "68d7db1a-4b2b-5035-b00a-79c655c867bd",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "31",
+      "live_value": "31"
+    },
+    {
+      "observation_id": "e0fff346-2d87-56cf-846d-49c8ff16e430",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "161003.66",
+      "live_value": "161003.66"
+    },
+    {
+      "observation_id": "fb0c1655-fa0d-5b67-a8b9-0228470ee3b9",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "4824.14",
+      "live_value": "4824.14"
+    },
+    {
+      "observation_id": "77e24ea4-b36a-5204-be00-d8887f5a70f0",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "6.6",
+      "live_value": "6.6"
+    },
+    {
+      "observation_id": "4c0e3341-225a-542a-9ae7-ef058bd8ff68",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2025/",
+      "dump_value": "1.8",
+      "live_value": "1.8"
+    },
+    {
+      "observation_id": "06364daa-1bd6-5352-932d-2c7e9d7e4eb8",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "273089",
+      "live_value": "273089"
+    },
+    {
+      "observation_id": "cef71e69-be98-5fa0-b05a-a24f3421198a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "6331116.59",
+      "live_value": "6331116.59"
+    },
+    {
+      "observation_id": "73af4195-c45c-5d64-b3bd-586c609097e4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "5.2",
+      "live_value": "5.2"
+    },
+    {
+      "observation_id": "e8c0188e-24cb-5f1b-a6f9-a990f9837c9b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "38672819",
+      "live_value": "38672819"
+    },
+    {
+      "observation_id": "9f9a9c02-e73c-58c7-b1c6-e514d001a69a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "3424704522.99",
+      "live_value": "3424704522.99"
+    },
+    {
+      "observation_id": "10777ae1-1634-579a-b736-e7f3d2cbe5f6",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "189348",
+      "live_value": "189348"
+    },
+    {
+      "observation_id": "4e166210-366b-57ea-9244-e31a03044cc3",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "36868",
+      "live_value": "36868"
+    },
+    {
+      "observation_id": "24bdbbba-9c31-58e1-bb16-e1d0b185d20c",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "44610",
+      "live_value": "44610"
+    },
+    {
+      "observation_id": "639e54b7-3e4d-5b10-9083-e3a7ccaa755c",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "1275",
+      "live_value": "1275"
+    },
+    {
+      "observation_id": "7e2818be-f6a0-5746-ab84-ad71cef264ae",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "23",
+      "live_value": "23"
+    },
+    {
+      "observation_id": "76ef9463-769f-5476-ad66-a707fa400a03",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "1561213.61",
+      "live_value": "1561213.61"
+    },
+    {
+      "observation_id": "4ff580cb-5455-509f-af52-ba7402df8dcf",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "2224599.81",
+      "live_value": "2224599.81"
+    },
+    {
+      "observation_id": "3d5a0856-7d35-5e17-887e-fa9944a7a99d",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "2192119.80",
+      "live_value": "2192119.80"
+    },
+    {
+      "observation_id": "7a4c4543-1f5e-5cb8-b8f6-dc8a80e4a772",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "21435.21",
+      "live_value": "21435.21"
+    },
+    {
+      "observation_id": "21feb749-f044-5d7b-a83a-555ad2eddc62",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "16464.05",
+      "live_value": "16464.05"
+    },
+    {
+      "observation_id": "f32bd4f4-c2c0-542c-9d0b-3de266be64a7",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "7.2",
+      "live_value": "7.2"
+    },
+    {
+      "observation_id": "48f5356a-5ffd-5d56-941d-317e4cce1096",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "6.8",
+      "live_value": "6.8"
+    },
+    {
+      "observation_id": "ac1348c9-261b-58d3-b1c5-3c0ad9e75819",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "2.7",
+      "live_value": "2.7"
+    },
+    {
+      "observation_id": "9e9fbc72-1083-5aba-9a9c-4658bc89ebb4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "6.1",
+      "live_value": "6.1"
+    },
+    {
+      "observation_id": "f9f40629-5be5-5eba-a611-beacacc65a42",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "c12bb932-94e2-5254-8065-6d83cd7de5ce",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "949",
+      "live_value": "949"
+    },
+    {
+      "observation_id": "b473256b-1c36-5e46-bbca-c50f01c94850",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "16",
+      "live_value": "16"
+    },
+    {
+      "observation_id": "4111df56-82fd-51d9-85dd-c20ebfaa7e56",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "314162.05",
+      "live_value": "314162.05"
+    },
+    {
+      "observation_id": "16187b90-b933-5449-b3f6-0b205e82c342",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "1122.06",
+      "live_value": "1122.06"
+    },
+    {
+      "observation_id": "26698ade-4e71-5f60-8087-ae2985aa2657",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "2.0",
+      "live_value": "2.0"
+    },
+    {
+      "observation_id": "b8edb76c-7401-5564-ba96-3a0082ff948c",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2025/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "61d13ab6-545a-59f5-a498-d314717edde7",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "460130",
+      "live_value": "460130"
+    },
+    {
+      "observation_id": "c46ad64b-be62-5d98-a8d2-d8e6c7cadf44",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "0.4",
+      "live_value": "0.4"
+    },
+    {
+      "observation_id": "c4323ae8-d09a-54ff-bff4-e10b6b70e44e",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "8176075.88",
+      "live_value": "8176075.88"
+    },
+    {
+      "observation_id": "ece4b07f-c4ed-5107-8822-56b3f53209c6",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "5.1",
+      "live_value": "5.1"
+    },
+    {
+      "observation_id": "fd00fa8c-8784-5cba-80c3-86c8262e38c1",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "28473397",
+      "live_value": "28473397"
+    },
+    {
+      "observation_id": "4049dac7-e4e9-561f-b773-9ec3f77ba451",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "3516395514.20",
+      "live_value": "3516395514.20"
+    },
+    {
+      "observation_id": "5a3c2bbf-c400-5810-a94d-8502f8dd7177",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "264377",
+      "live_value": "264377"
+    },
+    {
+      "observation_id": "70aefbee-39eb-5fb3-8e91-2c3f72797c07",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "98209",
+      "live_value": "98209"
+    },
+    {
+      "observation_id": "a9ba2cd7-0a32-5843-afb5-a1bbe0ff91e5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "91881",
+      "live_value": "91881"
+    },
+    {
+      "observation_id": "613c5277-e8be-5cac-8d13-b2e533baeb50",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "4606",
+      "live_value": "4606"
+    },
+    {
+      "observation_id": "40d01a81-cf39-5326-a16f-82db7c86fb53",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "360",
+      "live_value": "360"
+    },
+    {
+      "observation_id": "6f25df07-1a0b-52b3-9534-9aaa298ba1d9",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "1959131.90",
+      "live_value": "1959131.90"
+    },
+    {
+      "observation_id": "2c1bed38-40cd-5754-a9ba-41fbf68576f5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "2704559.76",
+      "live_value": "2704559.76"
+    },
+    {
+      "observation_id": "a1512da9-1db4-5a9d-9141-2ac339416237",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "3087075.22",
+      "live_value": "3087075.22"
+    },
+    {
+      "observation_id": "eb264c18-db1c-566c-86f7-aa5aad01ca22",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "45972.15",
+      "live_value": "45972.15"
+    },
+    {
+      "observation_id": "92ac2369-9c3b-5ee4-b031-628cdd2e748b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "147634.35",
+      "live_value": "147634.35"
+    },
+    {
+      "observation_id": "63b38e3f-e59d-526d-8e30-31d06b56d98b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "8.6",
+      "live_value": "8.6"
+    },
+    {
+      "observation_id": "cc2410ba-aa4a-5aac-b9fe-992ee319e6e9",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "6.4",
+      "live_value": "6.4"
+    },
+    {
+      "observation_id": "591f2938-c876-54e0-904d-072d65a34793",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "2.3",
+      "live_value": "2.3"
+    },
+    {
+      "observation_id": "4f03f1f3-b3a6-50f1-915c-5a7761c2ec94",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "55d5307e-db24-527b-9f96-811205f0b32e",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "645",
+      "live_value": "645"
+    },
+    {
+      "observation_id": "a1fc24c7-e782-5234-8519-15b4bf7176a2",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "52",
+      "live_value": "52"
+    },
+    {
+      "observation_id": "f3bce4b9-2ac7-5863-850e-cbe2dfe570e3",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "223291.68",
+      "live_value": "223291.68"
+    },
+    {
+      "observation_id": "807b8db6-42df-5aa1-8af8-9b27a4d63550",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "8410.82",
+      "live_value": "8410.82"
+    },
+    {
+      "observation_id": "863dfdbc-4a7e-5c3d-80fb-cde5bfe6155d",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "1.8",
+      "live_value": "1.8"
+    },
+    {
+      "observation_id": "5190218d-f843-50f1-af4a-deee3cc0560b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_3q_2025/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "e210beeb-bdea-5126-b9a0-78851980a763",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "541163",
+      "live_value": "541163"
+    },
+    {
+      "observation_id": "6864ff73-33bb-54be-adaf-e382bba92c74",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "7943755.00",
+      "live_value": "7943755.00"
+    },
+    {
+      "observation_id": "5e421481-fdae-506d-b0ab-08fc61aa672f",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "5.8",
+      "live_value": "5.8"
+    },
+    {
+      "observation_id": "5a96f833-41f3-56c4-977a-f8aac5b6f817",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "23177863",
+      "live_value": "23177863"
+    },
+    {
+      "observation_id": "cb2d196d-a809-5d0b-aa5c-650f6135ce8b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "2347015538.28",
+      "live_value": "2347015538.28"
+    },
+    {
+      "observation_id": "294e9ca8-ff7e-5248-9934-4162d06e19e5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "495761",
+      "live_value": "495761"
+    },
+    {
+      "observation_id": "2d3afbb5-1a3d-526a-8153-5474bce07533",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "7397909.76",
+      "live_value": "7397909.76"
+    },
+    {
+      "observation_id": "fcf3f9d5-e926-5066-870d-563ebfa7e443",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "5.7",
+      "live_value": "5.7"
+    },
+    {
+      "observation_id": "16a41dff-8dc3-5764-8f85-beea538200d9",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "16776474",
+      "live_value": "16776474"
+    },
+    {
+      "observation_id": "30980f48-dcab-5d81-a64a-24be34b8a123",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "1813291076.63",
+      "live_value": "1813291076.63"
+    },
+    {
+      "observation_id": "51266840-1efc-57ef-b054-1b2c17c53ec5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "254758",
+      "live_value": "254758"
+    },
+    {
+      "observation_id": "4e9cb84e-c086-5363-b1af-6e0599787e45",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "104309",
+      "live_value": "104309"
+    },
+    {
+      "observation_id": "1d185ae2-b1bf-52ab-9648-f3ef62d6e581",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "127875",
+      "live_value": "127875"
+    },
+    {
+      "observation_id": "e02d89a7-ad0a-5b21-8cd0-1b6acccfee50",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "7200",
+      "live_value": "7200"
+    },
+    {
+      "observation_id": "12644385-600f-5394-9532-43cb2a312421",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "801",
+      "live_value": "801"
+    },
+    {
+      "observation_id": "c0a1c346-7ed1-51c3-9b9f-73a0eec89673",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "1571621.57",
+      "live_value": "1571621.57"
+    },
+    {
+      "observation_id": "2b2ef3f5-b4de-5e4d-88d7-1a12525fef68",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "2334702.58",
+      "live_value": "2334702.58"
+    },
+    {
+      "observation_id": "df2ca528-9372-5e4f-9566-693f5097fdcb",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "2636011.60",
+      "live_value": "2636011.60"
+    },
+    {
+      "observation_id": "126bb26d-425c-5ebe-9cb0-c06b95ab0466",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "67854.92",
+      "live_value": "67854.92"
+    },
+    {
+      "observation_id": "2a32fb97-2606-5293-a797-551c2b4976d8",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "214373.33",
+      "live_value": "214373.33"
+    },
+    {
+      "observation_id": "bb1298e3-a145-5f3b-a882-b00eed43c422",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "10.5",
+      "live_value": "10.5"
+    },
+    {
+      "observation_id": "91236929-226a-5864-b3e1-3c171297dadb",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "3.6",
+      "live_value": "3.6"
+    },
+    {
+      "observation_id": "36eb2e01-2682-5aa8-9e55-c699440fe5c1",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "3.3",
+      "live_value": "3.3"
+    },
+    {
+      "observation_id": "a6a71c43-c68b-57e5-90dc-ec1d8d4d65fe",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "1.9",
+      "live_value": "1.9"
+    },
+    {
+      "observation_id": "c12cd5be-55b6-5b89-9b79-46b24d6c82c2",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "b538716f-56fe-5039-8c23-1f0dba45f5d2",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "753",
+      "live_value": "753"
+    },
+    {
+      "observation_id": "c1d0d304-f18b-55c8-81be-a8865779b476",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "65",
+      "live_value": "65"
+    },
+    {
+      "observation_id": "a9a1a0fc-9a81-5ce9-a4fa-f1007623f790",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "553070.32",
+      "live_value": "553070.32"
+    },
+    {
+      "observation_id": "9c0a8c35-7d76-5ffe-8665-ff1321758df2",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "20275.44",
+      "live_value": "20275.44"
+    },
+    {
+      "observation_id": "a8bc04e6-3912-558f-931d-d8ca2ee96db5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "15.9",
+      "live_value": "15.9"
+    },
+    {
+      "observation_id": "d4fa47ad-4ec4-5a16-9334-a8cd30876c4a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_1q_2026/",
+      "dump_value": "2.4",
+      "live_value": "2.4"
+    },
+    {
+      "observation_id": "ae5a53ae-c510-5c29-9159-3eb7d0f0742f",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "495761",
+      "live_value": "495761"
+    },
+    {
+      "observation_id": "fc244c33-8ab4-5499-8d41-b1fee291d16a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "7397909.76",
+      "live_value": "7397909.76"
+    },
+    {
+      "observation_id": "a6df121a-7612-5bf9-a4bb-d713645e7f3e",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "5.7",
+      "live_value": "5.7"
+    },
+    {
+      "observation_id": "eccd305c-fe66-5dd5-87fa-72be2748d89a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "16776474",
+      "live_value": "16776474"
+    },
+    {
+      "observation_id": "784f72e3-4037-52b0-b2b3-84dd203d7b7a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "1813291076.63",
+      "live_value": "1813291076.63"
+    },
+    {
+      "observation_id": "12da632e-bda5-5fb4-a133-a4b72f49debd",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "458655",
+      "live_value": "458655"
+    },
+    {
+      "observation_id": "c055dd29-d921-5296-848e-b2f226ae6ff1",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "7350722.68",
+      "live_value": "7350722.68"
+    },
+    {
+      "observation_id": "c0ed094f-2fb5-53fe-aad5-2ed881853dc7",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "7.0",
+      "live_value": "7.0"
+    },
+    {
+      "observation_id": "3511fe35-b30a-5f89-851c-0ae6adfb8572",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "17496497",
+      "live_value": "17496497"
+    },
+    {
+      "observation_id": "528bc9d8-d352-5a83-9624-ddd38a834b78",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "1890124708.01",
+      "live_value": "1890124708.01"
+    },
+    {
+      "observation_id": "2c09c547-07e2-5870-980c-a74271aba718",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "237030",
+      "live_value": "237030"
+    },
+    {
+      "observation_id": "3b787f95-09f5-5dc1-a823-0dcbff90c7ee",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "84022",
+      "live_value": "84022"
+    },
+    {
+      "observation_id": "0b74d73f-e7ff-58db-ae74-f0f0544c4bf7",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "129055",
+      "live_value": "129055"
+    },
+    {
+      "observation_id": "d9432ec1-777a-5c90-8cef-2109b32ac88e",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "6004",
+      "live_value": "6004"
+    },
+    {
+      "observation_id": "86bf4147-1cd6-55f1-9105-35b3db0d8550",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "1764",
+      "live_value": "1764"
+    },
+    {
+      "observation_id": "c794d1fb-37e3-5c0e-a9bd-ed5c1dbf267b",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "1303319.47",
+      "live_value": "1303319.47"
+    },
+    {
+      "observation_id": "e6875e5f-b9c6-5c25-9d1e-8cda4dd8962d",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "2166078.19",
+      "live_value": "2166078.19"
+    },
+    {
+      "observation_id": "76464058-813a-5b22-a841-e7e6f8847736",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "2741024.49",
+      "live_value": "2741024.49"
+    },
+    {
+      "observation_id": "93b96719-ed87-57e7-863d-bb4e336c8832",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "56621.33",
+      "live_value": "56621.33"
+    },
+    {
+      "observation_id": "62c32071-1ae5-5fe9-90b5-eb043b63b85d",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "252290.69",
+      "live_value": "252290.69"
+    },
+    {
+      "observation_id": "b835c91e-12f2-5cc7-80d0-e5f365ed63e6",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "13.3",
+      "live_value": "13.3"
+    },
+    {
+      "observation_id": "f74876fd-2738-5c79-8bcd-d252cd796a4a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "5.4",
+      "live_value": "5.4"
+    },
+    {
+      "observation_id": "3c0a0148-29cc-5c38-8233-573b74479f04",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "2.1",
+      "live_value": "2.1"
+    },
+    {
+      "observation_id": "d3a1caee-4525-51b2-9717-c675053c5e1a",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "19.5",
+      "live_value": "19.5"
+    },
+    {
+      "observation_id": "8c5b92d9-3d9a-5626-b78c-e49e7b7e2a05",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "0.0",
+      "live_value": "0.0"
+    },
+    {
+      "observation_id": "3266e8b9-55d6-5948-8620-4cabaa615cfb",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "707",
+      "live_value": "707"
+    },
+    {
+      "observation_id": "dd5f846e-c1a8-5e78-b9ae-5324f164e0cf",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "73",
+      "live_value": "73"
+    },
+    {
+      "observation_id": "ddab51c6-44ae-5979-9e00-e56815bfa161",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "796490.79",
+      "live_value": "796490.79"
+    },
+    {
+      "observation_id": "3c3ed54d-f719-56d2-a095-f2e6f43b18b5",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "34897.72",
+      "live_value": "34897.72"
+    },
+    {
+      "observation_id": "81cfcb4f-8cd2-5361-b1e3-5472ae66ddf6",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "19.5",
+      "live_value": "19.5"
+    },
+    {
+      "observation_id": "958e7ab4-cb1d-5911-9985-7eda01ad13d4",
+      "match": true,
+      "source_url": "https://www.cbr.ru/statistics/ib/review_2q_2026/",
+      "dump_value": "0.5",
+      "live_value": "0.5"
+    }
+  ]
+}

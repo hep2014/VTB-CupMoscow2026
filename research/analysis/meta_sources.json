@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "c5d6d84d-5333-445e-afce-965a100bedad",
+    "source_code": "cbr",
+    "source_name": "Bank of Russia",
+    "source_type": "official_statistics",
+    "source_url": "https://www.cbr.ru/information_security/statistics/",
+    "created_at": "2026-10-30 16:52:27.183371+00"
+  },
+  {
+    "source_id": "c55e7f40-15ec-45ce-8ddb-113ecdcde353",
+    "source_code": "paysim",
+    "source_name": "PaySim (Kaggle ealaxi)",
+    "source_type": "synthetic_benchmark",
+    "source_url": "https://www.kaggle.com/datasets/ealaxi/paysim1",
+    "created_at": "2026-10-30 16:52:27.665533+00"
+  },
+  {
+    "source_id": "3e3524cc-e58f-4a3f-9512-79bf1ecd481f",
+    "source_code": "creditcard",
+    "source_name": "Machine Learning Group - ULB and Worldline",
+    "source_type": "anonymized_card_benchmark",
+    "source_url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+    "created_at": "2026-10-30 16:53:54.841614+00"
+  },
+  {
+    "source_id": "49d78160-1efa-4c57-87b6-14c65997bfc5",
+    "source_code": "fdh_independent",
+    "source_name": "Fraud Detection Handbook methodology; independent local implementation",
+    "source_type": "simulation_methodology",
+    "source_url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_3_GettingStarted/SimulatedDataset.html",
+    "created_at": "2026-10-30 16:54:19.992018+00"
+  },
+  {
+    "source_id": "c930e6ee-23b0-4f14-945b-d8617c6557ad",
+    "source_code": "ieee_cis",
+    "source_name": "IEEE-CIS Fraud Detection competition (Vesta)",
+    "source_type": "restricted_competition_benchmark",
+    "source_url": "https://www.kaggle.com/competitions/ieee-fraud-detection/data",
+    "created_at": "2026-10-30 16:55:36.105953+00"
+  },
+  {
+    "source_id": "3c38a5b0-660f-437d-a551-4e0f96db253d",
+    "source_code": "hse_dano_tbank_reviews_2025",
+    "source_name": "T-Bank customer reviews, DANO 2025",
+    "source_type": "curated_review_candidates",
+    "source_url": "https://dano.hse.ru/data2025",
+    "created_at": "2026-10-31 09:28:34.099154+00"
+  },
+  {
+    "source_id": "5e73753b-decc-4e06-8ceb-1c766a8c9fe8",
+    "source_code": "yandex_geo_2023",
+    "source_name": "YANDEX LLC Geo Reviews Dataset 2023",
+    "source_type": "curated_review_candidates",
+    "source_url": "https://github.com/yandex/geo-reviews-dataset-2023",
+    "created_at": "2026-10-31 09:28:34.715318+00"
+  }
+]

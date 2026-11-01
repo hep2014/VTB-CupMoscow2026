@@ -1,0 +1,9 @@
+{
+  "action": "PASS",
+  "restricted": false,
+  "reason": "BELOW_THRESHOLD",
+  "priority": -8.528376510703062,
+  "threshold": -7.547376721527199,
+  "transaction_risk": 0.0002755157776207091,
+  "history_risk": 0.00019773668878263204
+}

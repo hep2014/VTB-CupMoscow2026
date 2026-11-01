@@ -1,0 +1,6 @@
+{
+  "removed_file": "hello_world.py",
+  "sha256": "2ee572f75fd2b3f56250745c9afdf6af4686d46c2257a0bb4479feeef99b49b7",
+  "reason": "Explicit user request; prior measured results retained.",
+  "date": "2026-11-01"
+}

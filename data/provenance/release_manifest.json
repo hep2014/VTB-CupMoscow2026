@@ -1,0 +1,30 @@
+{
+  "source_database": "vtb_acceptance_20261030t165219z_0f144dbe",
+  "target_database": "vtb_candidate_full_20261031t092746z_533c277a",
+  "restored_database": "vtb_verify_full_20261031t092746z_533c277a",
+  "status": "independent_restore_verified",
+  "dump_bytes": 613005300,
+  "dump_sha256": "9ab243e771159d8b5b8df18f12b671afdbc78f7c47849b1f6ea4aaa68b144a3e",
+  "transfer_authorized": false,
+  "transfer_blockers": [
+    "ieee_competition_recipient_access_unconfirmed",
+    "tbank_original_email_not_locally_verified",
+    "fdh_output_license_not_declared"
+  ],
+  "candidate_load": [
+    {
+      "source": "tbank",
+      "rows": 300,
+      "excluded": [],
+      "inserted": 300,
+      "reused": false
+    },
+    {
+      "source": "yandex",
+      "rows": 38,
+      "excluded": [],
+      "inserted": 38,
+      "reused": false
+    }
+  ]
+}

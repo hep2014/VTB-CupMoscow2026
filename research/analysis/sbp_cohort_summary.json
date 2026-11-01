@@ -1,0 +1,22 @@
+{
+  "mentions": 17,
+  "primary_n": 12,
+  "channels": {
+    "outgoing": 10,
+    "incoming": 2,
+    "mixed_unclear": 3,
+    "sbp_success_card_restricted": 1,
+    "historical_sbp_current_unclear": 1
+  },
+  "exclusion_notes": {
+    "95a119f6-8a14-4d96-8c46-0c743ee65851": "SBP mentioned as business turnover; restricted transfer channel unclear.",
+    "c0f16470-f21c-4080-bc1d-636a2a91557b": "SBP mentioned as past usage; channel of blocked transfer unspecified.",
+    "29ed1a43-fde7-4f8d-98ce-f4b73cf33107": "Incoming SBP completed; outgoing blocked channel unspecified.",
+    "13ce366d-fd11-40d2-be75-1b4233cb8749": "Explicitly successful SBP; card-number transfer was blocked.",
+    "57d06ed6-8c2c-4e41-8879-cef444e02bb1": "Historical receipt of SBP, current episode channel unspecified."
+  },
+  "false_positive_count": null,
+  "true_legitimate_denominator": null,
+  "all_annotations_are_ai": true,
+  "all_source_human_decisions_preserved": true
+}

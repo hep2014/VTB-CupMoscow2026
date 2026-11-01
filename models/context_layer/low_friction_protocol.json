@@ -1,0 +1,13 @@
+{
+  "status": "Additional operating-mode study after the original high-recall test; not a new untouched holdout.",
+  "models_and_scores": "Frozen; no retraining and no changes to original experiment.",
+  "caps": [
+    0.001,
+    0.005,
+    0.01
+  ],
+  "designated_primary_cap": 0.005,
+  "selection": "On policy_validation only, choose minimum threshold satisfying FPR budget. Select policy maximizing TP, then fraud amount while retaining baseline count and amount. Test all three caps; do not select a winning cap after evaluation.",
+  "policy_grid": "same pre-existing 27 combinations; guard referenced to the low-FPR baseline threshold",
+  "metrics": "all interventions, not BLOCK-only"
+}

@@ -1,0 +1,10 @@
+{
+  "row_mismatch_pct": 99.46696486667442,
+  "original_reported_fp_block_reduction_pct": 99.79323833473038,
+  "original_actual_fp_restriction_change_pct": 10.203967588711937,
+  "aligned_original_fp_restriction_change_pct": 0.0,
+  "strict_fp_restriction_change_pct": 9.398585842535944,
+  "strict_ideal_cost_saving": 5599750.0,
+  "strict_ideal_cost_saving_pct": 0.43886939386804114,
+  "strict_delay_amount_success_break_even": 0.9946016117209594
+}

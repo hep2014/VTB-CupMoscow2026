@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="zoom:lang" content="ru" />
+    <meta name="zoom:last-modified" content="Thu, 14 May 2026 13:26:00 GMT" />
+    <meta name="zoom:tags" content="Статистика, InMaterials" />
+<title>Обзор отчетности об инцидентах информационной безопасности при переводе денежных средств  | Банк России</title>
+
+
+
+    <meta property="og:image" content="/common/images/share-1.jpg" />
+
+    
+
+
+            <link rel="stylesheet" type="text/css" href="/common/libs/jquery-ui/jquery-ui.min.css?v=v478607061" media="all">
+
+            <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/common/style/main-ie9.css?v=v1337212920" media="all"><![endif]-->
+
+            <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/common/style/main.min.css?v=v1337212920" media="all"><!--<![endif]-->
+
+
+        <script type="text/javascript" src="/common/libs/jquery-3.7.1.min.js?v=v735956814"></script>
+
+
+
+        <script type="text/javascript" src="/common/libs/jquery-ui/jquery-ui.min.js?v=v478607061"></script>
+
+        <script type="text/javascript" src="/common/libs/jquery.inputmask.min.js?v=v478607061"></script>
+
+
+        <script type="text/javascript" src="/common/scripts/vendor.js?v=v4270970564"></script>
+
+        <script type="text/javascript" src="/common/libs/jquery.floatThead.min.js?v=v478607061"></script>
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="/common/libs/popper.js?v=v478607061"></script>
+
+        <script type="text/javascript" src="/common/libs/tippy.js?v=v478607061"></script>
+
+        <script type="text/javascript" src="/common/scripts/main.min.js?v=v1337212920"></script>
+
+
+        <script type="text/javascript" src="/common/libs/localization-ru.js?v=v712023859"></script>
+        <script type="text/javascript" src="/js/jquery.ui.autocomplete-ru.js?v=v1043438991"></script>
+
+        <script type="text/javascript" src="/js/jquery.cookie.min.js?v=v4260771145"></script>
+
+        <script type="text/javascript" src="/js/site.js?v=v2848633841"></script>
+
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            var $menu = $('[data-menu]'),
+                $menuItemBtn = $menu.find('[data-menu-item-btn]'),
+                $menuShow = $('[data-menu-show]'),
+                $menuClose = $('[data-menu-close]');
+            var config = $menu.data('config');
+
+            $menuShow.on('click.cms_loadwholesite mouseenter.cms_loadwholesite', function (event) {
+                loadWholeSite();
+            });
+
+            var xhr = null;
+            function loadWholeSite() {
+                if (xhr === null) {
+                    $('.menu_wrap .networks-circle').html($('.networks-circle.footer_networks').html());
+                    $('.menu_wrap .header_search').html($('.header .offsetMenu .header_search').html());
+
+                    $('[data-cms-wholesite-placeholder]').addClass('with-centered-loader').empty();
+                    xhr = $.ajax(config.url, {
+                        dataType: "html",
+                        method: "get",
+                        success: function (html) {
+                            $('[data-cms-wholesite-placeholder]').replaceWith(html);
+
+                            $menu.find('.menu_tab[data-tabs-tab]').each(function () {
+                                var tab = $(this).data('tabs-tab');
+                                $(this).toggle($menu.find('[data-tabs-content="' + tab + '"]').length != 0);
+                            });
+
+                            $menu.trigger('new-html');
+
+                            for (var i in config.catalogPath) {
+                                $menu.find('li[data-catalog-id="' + config.catalogPath[i] + '"]')
+                                    .addClass("_active");
+                                $menu.find('li[data-catalog-id="' + config.catalogPath[i] + '"]')
+                                    .closest('[data-tabs-content]')
+                                    .trigger('open-anchor');
+                            }
+
+                            $menuShow.off('click.cms_loadwholesite mouseenter.cms_loadwholesite');
+                        },
+                        error: function () {
+                            $('[data-cms-wholesite-placeholder]').removeClass('with-centered-loader')
+                                .append('<div class="menu_content offset-md-1">' +
+                                    '<span class="group-error field-validation-error">Не удалось загрузить карту сайта. <a href="#">Попробуйте еще раз.</a></span>' +
+                                    '</div>')
+                                .find('a')
+                                .on('click', function () { loadWholeSite(); });
+                        },
+                        complete: function () {
+                            xhr = null;
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+
+
+<script>
+    if (window.localStorage) {
+        if (localStorage.getItem('vision-impaired'))
+            document.getElementsByTagName('html')[0].className += ' vision-impaired';
+    }
+</script>
+<script>
+    document.documentElement.style.setProperty('--scrollbar-width', '17px');
+    setTimeout(function () {
+        
+        var div = document.createElement('div');
+
+        div.style.overflowY = 'scroll';
+        div.style.width = '50px';
+        div.style.height = '50px';
+
+        
+        div.style.visibility = 'hidden';
+
+        document.body.appendChild(div);
+        var scrollWidth = Math.max(div.offsetWidth - div.clientWidth, 0.15); 
+        document.body.removeChild(div);
+        
+        document.documentElement.style.setProperty('--scrollbar-width', scrollWidth + 'px');
+    }, 0);
+</script>
+
+
+
+
+    
+</head>
+<body class="page-v3 page-v3-inside " id="">
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(5774506, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/5774506" style="position:absolute; left:-9999px;" alt="" /></div></noscript>    
+<!-- /Yandex.Metrika counter -->
+        
+    <div class="header-print">
+    <div class="offsetMenu">
+        <div class="header-print_inner">
+            <img class="header-print_logo" alt="cbr" src="/common/images/logo.svg">
+            <ul class="header-print_contacts">
+<li>107016, Москва, ул. Неглинная, д.&nbsp;12, к. В, Банк России</li>
+<li><nobr class="phone">8 800 300-30-00</nobr></li>
+<li>www.cbr.ru</li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+        <div class="banner-header">
+            <header class="header" id="header" style="background-image: url(/StaticHtml/File/113129/phone6.jpg);">
+                <div class="header-image"><img class="banner-header_image" src="/StaticHtml/File/113129/phone6.jpg"></div>
+                <div class="top-line" data-top-line="">
+                    <div class="header_burger-big"></div>
+                    <div class="offsetMenu">
+                        <div class="col-md-23 header_margin-left">
+                            <div class="top-line_inner header_inner">
+                                
+
+<div class="row">
+    <div class="col-xl-4 col-md-6">
+        <div class="header_left pr-0">
+                <div class="header_menu" data-menu-show=""></div>
+            <a class="header_logo" href="/"></a>
+                <a class="header_search_btn d-flex d-md-none" href="#" data-search-form-show="" aria-label="Поиск по сайту"><div class="header_search_icon"></div></a>
+            <a class="d-flex d-md-none" href="#" data-tooltip="" data-tooltip-content="Версия для слабовидящих" data-tooltip-class="mobile-hide"><div class="header_visual-impaired_item"></div></a>
+        </div>
+    </div>
+    <div class="col-xl-17 col-md-13 offset-md-1 header_block">
+        <div class="d-none d-md-block">
+            <div class="header_right">
+                <div class="networks header_link header_networks"><a class="header_appeal-link" href="/contactBR/" data-tooltip="" data-tooltip-content="Обратиться в Банк России" data-tooltip-class="mobile-hide"></a></div>
+                <div class="networks header_networks header_visual-impaired header_visual-impaired_inner"><a href="#" data-tooltip="" data-tooltip-content="Версия для слабовидящих" data-tooltip-class="mobile-hide" aria-label="Версия для слабовидящих"><div class="header_visual-impaired_item"></div></a></div>
+                <div class="header_lang header_lang_inner header_networks">
+    <a href="/Localization/SwitchLanguage?url=%2Fstatistics%2Fib%2Freview_1q_2026%2F&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a>
+</div>
+                    <div class="header_networks header_search header_search_inner">
+                        <a class="header_search_btn" href="#" data-search-form-show="" aria-label="Поиск по сайту"><div class="header_search_icon"></div><span aria-hidden="true">Поиск по сайту</span></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offsetMenu">
+                    <div class="col-md-23 offset-md-1 header_margin-left">
+                        <div class="header_inner">
+                            
+<div class="row">
+    <div class="col-xl-4 col-md-6">
+        <div class="header_left pr-0">
+            <div class="header_menu" data-menu-show=""></div>
+            <a class="header_logo" href="/"></a>
+            <a class="header_search_btn d-flex d-md-none" href="#" data-search-form-show="" aria-label="Поиск по сайту">
+                <div class="header_search_icon"></div>
+            </a>
+            <a class="d-flex d-md-none" href="#" data-tooltip data-tooltip-content="Версия для слабовидящих" data-tooltip-class="mobile-hide">
+                <div class="header_visual-impaired_item"></div>
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-17 col-md-13 offset-md-1 header_block justify-content-end">
+        <div class="d-none d-md-block">
+            <div class="header_right">
+                <div class="networks header_link header_networks"><a class="header_appeal-link" href="/contactBR/" data-tooltip="" data-tooltip-content="Обратиться в Банк России" data-tooltip-class="mobile-hide"></a></div>
+                <div class="networks header_networks header_visual-impaired header_visual-impaired_inner">
+                    <a href="#" data-tooltip data-tooltip-content="Версия для слабовидящих" data-tooltip-class="mobile-hide" aria-label="Версия для слабовидящих">
+                        <div class="header_visual-impaired_item"></div>
+                    </a>
+                </div>
+                <div class="header_lang header_lang_inner header_networks">
+    <a href="/Localization/SwitchLanguage?url=%2Fstatistics%2Fib%2Freview_1q_2026%2F&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a>
+</div>
+                <div class="header_networks header_search header_search_inner">
+                    <a class="header_search_btn" href="#" data-search-form-show="" aria-label="Поиск по сайту">
+                        <div class="header_search_icon"></div><span aria-hidden="true">Поиск по сайту</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="banner-header_main">
+                <div class="offsetMenu banner-header_breadcumbs">
+                    <div class="col-md-23 offset-md-1">
+                        <div class="breadcrumbs">
+    <div class="breadcrumbs_item"><a class="breadcrumbs_home" href="/"></a></div>
+        <div class="breadcrumbs_item">
+            <a href="/statistics/"><!--noindex-->Статистика<!--/noindex--></a>
+        </div>
+        <div class="breadcrumbs_item">
+            <a href="/statistics/ib/"><!--noindex-->Информационная безопасность<!--/noindex--></a>
+        </div>
+    </div>
+
+                    </div>
+                </div>
+                <div class="offsetMenu">
+                    <div class="col-md-23 offset-md-1">
+                        <!--index-->
+                        <h1><span class="referenceable">Обзор отчетности об&#160;инцидентах информационной безопасности при&#160;переводе денежных средств </span>
+</h1>
+
+                        <!--/index-->
+                    </div>
+                </div>
+            </div>
+            <div class="banner-header_bottom">
+<div class="offsetMenu"><div class="col-md-23 offset-md-1"><div class="banner-header_vestnik"><div class="banner-header_vestnik_subtitle"></div><div class="banner-header_vestnik_title">I квартал 2026 года</div><div class="banner-header_vestnik_btn"></div></div><div class="news-header_author"><!--	Фото:  copyright --></div><div class="news-info-line row news-info-line__dark"><div class="col-md-6 col-12 news-info-line_date">14 мая 2026 года</div><div class="col-md-11 col-13 news-info-line_type"></div><div class="col-md-6 d-none d-md-block news-info-line_share"><span class="news-info-line_share-btn" tabindex="0" data-share-btn="data-share-btn">Поделиться</span><div class="news-info-line_share-select _hide"><a class="news-info-line_share-vkontakte" target="_blank" href="https://vkontakte.ru/share.php?url=https%3a%2f%2fwww.cbr.ru%2fstatistics%2fib%2freview_1q_2026%2f">ВКонтакте</a><a class="news-info-line_share-telegram" target="_blank" href="https://telegam.me/share/url?url=https%3a%2f%2fwww.cbr.ru%2fstatistics%2fib%2freview_1q_2026%2f">Telegram</a><a class="news-info-line_share-max" target="_blank" href="https://max.ru/:share?text=https%3a%2f%2fwww.cbr.ru%2fstatistics%2fib%2freview_1q_2026%2f">Макс</a></div></div></div></div></div>            </div>
+        </div>
+    <form action="/search/" method="get" class="search-form" data-search-form=""
+      data-api-url="/Content/SearchSuggest/Suggest"
+      data-api-top-url="">
+    <div class="offsetMenu">
+        <div class="col-md-23 offset-md-1">
+            <div class="search-form_inner">
+                <div class="search-form_title">Что вы хотите найти?<img class="search-form_title-close" src="/common/images/icons/menu-close-dark-grey.svg"></div>
+                <div class="search-form_content">
+                    <div class="search-form_block">
+                        <div class="search-form_icon"></div>
+                        <div class="search-form_field">
+                            <input name="text" type="text" autocomplete="off" placeholder="Начните писать" data-search-form-input="" />
+                        </div>
+                    </div>
+                    <div class="search-form_clear" data-search-form-clear-btn=""><img src="/common/images/icons/menu-close-gray.svg"></div>
+                    <div class="search-form_btn">
+                        <button class="b-btn _blue" data-search-form-btn="">Искать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div class="menu_wrap" data-menu="" data-config="{&quot;catalogPath&quot;:[26979,16628],&quot;url&quot;:&quot;/Catalog/SiteMap/GetWholeSiteHtml?blockId=59191&quot;}">
+    <div class="offsetMenu">
+        <div class="header_menu _close menu_close d-none d-md-block" data-menu-close=""></div>
+        <div class="header_inner top-line_inner d-block d-md-none">
+            <div class="row">
+                <div class="col-xl-5 col-md-9">
+                    <div class="header_left pr-0">
+                        <div class="header_menu _close" role="button" tabindex="0" aria-label="Закрыть меню" data-menu-close=""></div>
+                        <a class="header_logo" href="/"></a>
+                        <a class="header_search_btn" href="#" data-search-form-show="data-search-form-show" aria-label="Поиск по сайту"><div class="header_search_icon"></div></a>
+                        <a href="#" data-tooltip="data-tooltip" data-tooltip-content="Версия для слабовидящих" data-tooltip-class="mobile-hide"><div class="header_visual-impaired_item"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu row" data-tabs="data-tabs">
+            <div class="menu_quick col-md-7">
+                <div role="tablist" class="menu_quick_tabs">
+    <a role="tab" id="menu_tab_Activity" aria-controls="menu_content_Activity" aria-selected="true" class="menu_tab _active" href="#" data-tabs-tab="Activity">Деятельность</a>
+    <a role="tab" id="menu_tab_FinancialMarkets" aria-controls="menu_content_FinancialMarkets" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="FinancialMarkets">Финансовые рынки</a>
+    <a role="tab" id="menu_tab_Documents" aria-controls="menu_content_Documents" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="Documents">Документы и данные</a>
+    <a role="tab" id="menu_tab_AboutBank" aria-controls="menu_content_AboutBank" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="AboutBank">О Банке России</a>
+    <a role="tab" id="menu_tab_Services" aria-controls="menu_content_Services" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="Services">Сервисы</a>
+</div>
+<div class="menu_quick_links">
+    <div class="inner_links"><a href="/support_measures/" title="Меры зашиты финансового рынка" style="color:red">Меры защиты финансового рынка</a>
+  </div>
+<div class="phones"><a class="menu_phone_val" href="tel:+74993003000">
+<div class="plus">+</div>7 499 300-30-00</a><a class="menu_phone_val" href="tel:88003003000">8 800 300-30-00</a><a class="menu_phone_val" href="tel:300">300</a><span>Бесплатно для звонков с мобильных телефонов</span></div>
+<div class="inner_links">
+  <a href="/news/" title="Новости">Новости</a>
+  <a href="/rbr/" title="Решения Банка России">Решения Банка России</a>
+  <a href="/contacts/" title="Контактная информация">Контактная информация</a>
+  <a href="/sitemap" title="Карта сайта">Карта сайта</a>
+  <a href="/about/" title="О сайте">О сайте</a>
+  </div>
+<div class="networks-circle">
+  <a class="networks-circle_item _vk" href="https://vk.com/cbr_official" title="ВКонтакте"></a>
+  <a class="networks-circle_item _yt" href="https://www.youtube.com/user/BankofRussia" title="Youtube"></a>
+  <a class="networks-circle_item _tg" href="https://telegram.me/centralbank_russia" title="Telegram"></a>
+  <a class="networks-circle_item _ydzen" href="https://zen.yandex.ru/id/622372d6a565892091994ea9" title="Яндекс Дзен"></a>
+  <a class="networks-circle_item _ok" href="https://ok.ru/group/68858679787580" title="Одноклассники"></a>
+  <a class="networks-circle_item _rt" href="https://rutube.ru/channel/23873201/" title="RUTUBE"></a>
+  <a class="networks-circle_item _max" href="https://max.ru/cbr_official" title="Макс"></a>
+</div>
+</div>
+            </div>
+            <div class="d-md-none link-above">
+                <div class="header_right">
+                    <div class="header_link"><a href="/contactBR/">Обратиться в&nbsp;Банк России</a></div>
+                    <div class="header_lang">
+            <div class="header_lang_item _active"><span><!--noindex-->RU<!--/noindex--></span></div>
+            <div class="header_lang_item"><a href="/Localization/SwitchLanguage?url=%2Fstatistics%2Fib%2Freview_1q_2026%2F&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a></div>
+</div>
+                </div>
+<div class="header_right"><div class="header_link"><a href="/about_br/">О Банке России</a></div></div>
+<div class="header_right"><div class="header_link"><a href="/finorg/">Проверить участника финансового рынка</a></div></div>
+<div class="header_right"><div class="header_link"><a href="/PSystem/dr/">Цифровой рубль</a></div></div>
+<div class="header_right"><div class="header_link"><a href="/beware/">Осторожно: мошенники!</a></div></div>            </div>
+            <div class="menu_content_container col-md" data-cms-wholesite-placeholder="">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <main id="content">
+        <div class="offsetMenu">
+            <div class="container-fluid">
+                <div class="col-md-23 offset-md-1">
+                    <!--index-->
+                    
+        <div class="versions-tabs tabs_wrap" data-tabs>
+            <div class="versions" data-versions>
+                <div class="versions_select_wrap">
+                    <select data-versions-select class="versions_select">
+                            <option value="2026 г.">2026 г.</option>
+                            <option value="2025 г.">2025 г.</option>
+                            <option value="2024 г.">2024 г.</option>
+                            <option value="2023 г.">2023 г.</option>
+                            <option value="2022 г.">2022 г.</option>
+                            <option value="2021 г.">2021 г.</option>
+                            <option value="2020 г.">2020 г.</option>
+                    </select>
+                    <div class="dropdown_select"></div>
+                </div>
+                    <div class="versions_items _active" data-versions-items="2026 г." data-item-select="2026 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_2q_2026/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item _active"
+       href="/statistics/ib/review_1q_2026/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2025 г." data-item-select="2025 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2025/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_2q_2025/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_1q_2025/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2024 г." data-item-select="2024 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2024/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_2q_2024/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_1q_2024/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2023 г." data-item-select="2023 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2023/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_2q_2023/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_1q_2023/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2022 г." data-item-select="2022 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2022/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_2q_2022/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_4q_2022/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2021 г." data-item-select="2021 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2021/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_2q_2021/"
+       
+
+       data-versions-item="">II&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_1q_2021/"
+       
+
+       data-versions-item="">I&#160;квартал</a>
+                    </div>
+                    <div class="versions_items " data-versions-items="2020 г." data-item-select="2020 г.">
+                            <a class="versions_item"
+       href="/statistics/ib/review_3q_2020/"
+       
+
+       data-versions-item="">III&#160;квартал</a>
+    <a class="versions_item"
+       href="/statistics/ib/review_1q_2q_2020/"
+       
+
+       data-versions-item="">I&#160;и&#160;II&#160;кварталы</a>
+                    </div>
+                <button class="more _hide" data-versions-toggle="" aria-expanded="false">
+                    <span class="open">Ещё +</span><span class="close">Свернуть -</span>
+                </button>
+            </div>
+        </div>
+
+
+
+
+    <script>
+        $(function () {
+            try {
+                if (window.sessionStorage && window.sessionStorage.setItem) {
+                    var scrollKey = "/Modules/Collection/Views/PageSwitcher/Display.cshtml";
+
+                    $('.versions-tabs .versions_item').click(function () {
+                        var scroll = $(window.document).scrollTop();
+                        window.sessionStorage.setItem(scrollKey, scroll);
+                    });
+
+                    var oldScroll = window.sessionStorage.getItem(scrollKey);
+                    if (oldScroll) {
+                        window.sessionStorage.removeItem(scrollKey);
+                        $(window.document).scrollTop(oldScroll);
+                        setTimeout(function () { $(window.document).scrollTop(oldScroll); }, 200);
+                    }
+                }
+            }
+            catch (e) { console.error(e); }
+        });
+    </script>
+
+<p id="no" class="comment" >Годовые данные об&nbsp;инцидентах информационной безопасности при&nbsp;переводе денежных средств опубликованы <a href="/analytics/ib/#a_144544">в&nbsp;разделе &laquo;Аналитика&raquo;</a>.</p><style type='text/css'>
+/*<![CDATA[*/
+.tabs_wrap {
+margin-bottom: -2.2vw;
+
+}
+/*]]*/
+</style>                                            <div class="landing-text">
+                            
+                        </div>
+                    <div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190025">Операции без добровольного согласия клиентов (ОБДС): общая картина*</span></h2></div><table class="table-grid" style="width: 99.9853%;">
+<thead>
+<tr class="tr">
+<th class="table-grid__th" style="width: 14.6476%;"></th>
+<th class="table-grid__th table-grid__th_right" style="width: 17.1507%;">Количество ОБДС,<br />ед.</th>
+<th class="table-grid__th table-grid__th_right" style="width: 12.4227%;"><span>Объем ОБДС,<br />тыс.&nbsp;руб.</span></th>
+<th class="table-grid__th table-grid__th_right" style="width: 18.495%;">Доля возмещенных (возвращенных)<br />средств (от&nbsp;объема), %</th>
+<th class="table-grid__th table-grid__th_right" style="width: 18.5877%;">Количество предотвращенных ОБДС, ед.</th>
+<th class="table-grid__th table-grid__th_right" style="width: 18.6804%;">Объем предотвращенных ОБДС, тыс.&nbsp;руб.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td" style="width: 14.6476%;">IV&nbsp;квартал 2025 года</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 17.1507%;">541&nbsp;163</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 12.4227%;">7&nbsp;943 755,00</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.495%;">5,8</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.5877%;">23&nbsp;177&nbsp;863</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.6804%;">2&nbsp;347&nbsp;015 538,28</td>
+</tr>
+<tr class="tr">
+<td class="table-grid__td" style="width: 14.6476%;">I&nbsp;квартал 2026&nbsp;года</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 17.1507%;">495&nbsp;761</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 12.4227%;">7&nbsp;397 909,76</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.495%;">5,7</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.5877%;">16&nbsp;776&nbsp;474</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.6804%;">1&nbsp;813&nbsp;291 076,63</td>
+</tr>
+</tbody>
+</table>
+<p class="comment"></p></div><div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190027">Физические лица*</span></h2></div><table class="table-grid" style="width: 100%;">
+<thead>
+<tr class="tr">
+<th class="table-grid__th" style="width: 22.0867%;"></th>
+<th class="table-grid__th table-grid__th_right" style="width: 12.6016%;">Карты</th>
+<th class="table-grid__th table-grid__th_right" style="width: 18.9669%;">Счета (дистанционное банковское обслуживание, переводы)</th>
+<th class="table-grid__th table-grid__th_right" style="width: 11.566%;">СБП</th>
+<th class="table-grid__th table-grid__th_right" style="width: 19.5574%;">Электронные кошельки</th>
+<th class="table-grid__th table-grid__th_right" style="width: 15.2213%;"><span class="footnote" data-footnote="Денежные переводы путем внесения наличных в банкомат.">Без&nbsp;открытия счета</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td" style="width: 22.0867%;">Количество ОБДС, ед.</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 12.6016%;">254&nbsp;758</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.9669%;">104&nbsp;309</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 11.566%;">127&nbsp;875</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 19.5574%;">7&nbsp;200</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 15.2213%;">801</td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 22.0867%;">Объем ОБДС, тыс.&nbsp;руб.</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 12.6016%;">1&nbsp;571 621,57</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.9669%;">2&nbsp;334 702,58</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 11.566%;">2&nbsp;636 011,60</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 19.5574%;">67 854,92</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 15.2213%;">214 373,33</td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 22.0867%;">Доля возмещенных (возвращенных) средств, %</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 12.6016%;">10,5</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 18.9669%;">3,6</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 11.566%;">3,3</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 19.5574%;">1,9</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 15.2213%;">0,0</td>
+</tr>
+</tbody>
+</table></div><div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190029">Юридические лица*</span></h2></div><table class="table-grid" style="width: 100%;">
+<thead>
+<tr class="tr">
+<th class="table-grid__th" style="width: 41.1472%;"></th>
+<th class="table-grid__th table-grid__th_right" style="width: 23.4869%;">Счета</th>
+<th class="table-grid__th table-grid__th_right" style="width: 35.3659%;">СБП</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td" style="width: 41.1472%;">Количество ОБДС, ед.</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 23.4869%;">753</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 35.3659%;">65</td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 41.1472%;">Объем ОБДС, тыс.&nbsp;руб.</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 23.4869%;">553 070,32</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 35.3659%;">20 275,44</td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 41.1472%;"><span>Доля возмещенных </span><span>(возвращенных)</span><span> средств, %</span></td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 23.4869%;">15,9</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 35.3659%;">2,4</td>
+</tr>
+</tbody>
+</table></div><div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190031">Основные типы компьютерных атак: выявлено  (ед.), динамика (%)</span></h2></div><table class="table-grid" style="width: 99.9739%;">
+<thead>
+<tr class="tr">
+<th class="table-grid__th" style="width: 34.3539%;">Тип&nbsp;атаки</th>
+<th class="table-grid__th table-grid__th_right" style="width: 43.763%;"><span>IV&nbsp;квартал 2025 года</span></th>
+<th class="table-grid__th table-grid__th_right" style="width: 21.8815%;">I&nbsp;квартал 2026&nbsp;года</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td" style="width: 34.3539%;">Использование методов социальной инженерии</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 43.763%;">13&nbsp;926</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">19&nbsp;151<span class="contain-inline__additional-num contain-inline__additional-num_rise contain-inline__additional-num_rise"> +37,52%&nbsp;<span class="rise"></span> </span></td>
+</tr>
+<tr class="tr">
+<td class="table-grid__td" style="width: 34.3539%;">Фишинговые атаки</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 43.763%;">385</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">450<span class="contain-inline__additional-num contain-inline__additional-num_rise"> +16,88%&nbsp;<span class="rise"></span></span></td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 34.3539%;">Атаки с&nbsp;использованием <span class="footnote" data-footnote="Вредоносное программное обеспечение.">ВПО</span></td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 43.763%;">41</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">95<span class="contain-inline__additional-num contain-inline__additional-num_rise">+131,71%&nbsp;<span class="rise"></span> </span></td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 34.3539%;">Атаки типа &laquo;отказ в&nbsp;обслуживании&raquo; (DDoS)</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 43.763%;">88</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">60<span class="contain-inline__additional-num contain-inline__additional-num_down"> &minus;31,82%&nbsp;<span class="down"></span></span></td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 34.3539%;"><span class="footnote" data-footnote="Компрометация аутентификационных или учетных данных; изменение маршрутно-адресной информации; эксплуатация уязвимостей; сканирование портов.">Иные атаки</span></td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 43.763%;">104</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">90<span class="contain-inline__additional-num contain-inline__additional-num_down"> &minus;13,46%&nbsp;<span class="down"></span> </span></td>
+</tr>
+</tbody>
+</table></div><div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190033">Мошеннические телефонные номера: выявлено (ед.), динамика (%)</span></h2></div><table class="table-grid">
+<thead>
+<tr class="tr">
+<th class="table-grid__th"></th>
+<th class="table-grid__th table-grid__th_right"><span>IV&nbsp;квартал 2025 года</span></th>
+<th class="table-grid__th table-grid__th_right">I&nbsp;квартал 2026 года</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td">С&nbsp;использованием номеров 8&nbsp;800</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">138</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">80<span class="contain-inline__additional-num contain-inline__additional-num_down">-42,03% <span class="down"></span> </span></td>
+</tr>
+<tr class="tr">
+<td class="table-grid__td">Городские телефонные номера</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">615</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">586<span class="contain-inline__additional-num contain-inline__additional-num_down">&nbsp;&minus;4,72% <span class="down"></span> </span></td>
+</tr>
+<tr class="tr">
+<td class="table-grid__td">Мобильные телефонные номера</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">11&nbsp;041</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline">7 672<span class="contain-inline__additional-num contain-inline__additional-num_down">-30,51% <span class="down"></span> </span></td>
+</tr>
+</tbody>
+</table><p class="landing-text">За&nbsp;отчетный период Банк России инициировал <strong>8&nbsp;338</strong>&nbsp;запросов операторам связи для&nbsp;принятия мер&nbsp;реагирования в&nbsp;отношении номеров телефонов, используемых в&nbsp;противоправных целях.</p></div><div class="title-container"><div class="block-title"><h2><span class="referenceable" id="a_190036">Мошеннические интернет-ресурсы: направлено на блокировку в Генеральную прокуратуру Российской Федерации и в адрес регистраторов доменных имен (ед.), динамика (%)</span></h2></div><table class="table-grid" style="width: 100%;">
+<thead>
+<tr class="tr">
+<th class="table-grid__th" style="width: 27.4613%;"></th>
+<th class="table-grid__th table-grid__th_right" style="width: 50.6556%;"><span>IV&nbsp;квартал 2025 года</span></th>
+<th class="table-grid__th table-grid__th_right" style="width: 21.8815%;">I&nbsp;квартал 2026&nbsp;года</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr">
+<td class="table-grid__td" style="width: 27.4613%;"><span class="footnote" data-footnote="Интернет-ресурсы, на которых размещена информация о возможности получения услуг кредитных, страховых организаций, услуг на рынке ценных бумаг, потребительского кредитования, ломбардов и других организаций, не имеющих специального разрешения (лицензии) Банка России.">Безлицензионная деятельность</span></td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 50.6556%;">4&nbsp;393</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">4&nbsp;174 <span class="contain-inline__additional-num contain-inline__additional-num_down">&nbsp; &minus;4,99% <span class="down"></span> </span></td>
+</tr>
+<tr class="tr">
+<td class="table-grid__td" style="width: 27.4613%;"><span class="footnote" data-footnote="Интернет-ресурсы нефинансовых организаций, компаний, маскирующихся под реально существующие финансовые организации, сайты с информацией о возможности получения компенсационных выплат от государства, о возможности заработать денежные средства за прохождение опроса (теста), онлайн-кинотеатры, сайты по продаже билетов, туров и так далее.">Фишинг</span></td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 50.6556%;">4&nbsp;174</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">2&nbsp;863<span class="contain-inline__additional-num contain-inline__additional-num_down"> &minus;31,41% <span class="down"></span> </span></td>
+</tr>
+<tr>
+<td class="table-grid__td" style="width: 27.4613%;">Финансовые пирамиды</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 50.6556%;">1&nbsp;472</td>
+<td class="table-grid__td table-grid__td_right table-grid__td_big contain-inline" style="width: 21.8815%;">3&nbsp;429<span class="contain-inline__additional-num contain-inline__additional-num_rise">+132,95% <span class="rise"></span> </span></td>
+</tr>
+</tbody>
+</table><div class="landing-text"><p>В&nbsp;адрес регистраторов доменных имен Банк России направил запросы на&nbsp;проведение проверочных мероприятий и&nbsp;снятие с&nbsp;делегирования в&nbsp;отношении <strong>265</strong>&nbsp;доменных имен сети Интернет, с&nbsp;использованием которых осуществлялась противоправная деятельность.</p>
+<p>В&nbsp;Генеральную прокуратуру Российской Федерации Банк России направил информацию о&nbsp;<strong>10&nbsp;201</strong>&nbsp;домене сети Интернет для&nbsp;проведения проверочных мероприятий и&nbsp;последующего ограничения доступа к&nbsp;ним&nbsp;в&nbsp;соответствии со&nbsp;статьей 15.3 Федерального закона от&nbsp;27.07.2006 &#8470;&nbsp;<nobr>149-ФЗ</nobr> &laquo;Об&nbsp;информации, информационных технологиях и&nbsp;о&nbsp;защите информации&raquo;.</p></div><div>&nbsp;<hr align="left" size="1" width="33%" /></div>
+<p class="note">* С&nbsp;25.07.2024 банки представляют сведения об&nbsp;ОБДС по&nbsp;форме отчетности 0403203, в&nbsp;дальнейшем данные могут быть скорректированы с&nbsp;учетом актуализированных сведений по&nbsp;результатам взаимодействия с&nbsp;кредитными организациями.</p></div>
+                    
+
+
+<!--noindex-->
+<div class="print-button-wrap">
+    <a data-cms-save-to-pdf-btn="" data-cms-save-to-pdf-page-orientation="portrait" class="btn _medium _outline" href="/Content/SaveToPdf/Page?url=%2Fstatistics%2Fib%2Freview_1q_2026%2F" target="_blank" rel="nofollow">Сохранить в PDF</a>
+    <div class="copy-btn" data-copy-url="https://www.cbr.ru/statistics/ib/review_1q_2026/" data-tooltip-content="Ссылка скопирована">
+        <div class="chain"></div>
+        <button class="btn _small _copy ">Копировать ссылку</button>
+    </div>
+</div>
+<!--/noindex--><div class="responsible-unit">
+<div class="responsible-unit_text">Ответственное структурное подразделение: <a href="/about_br/bankstructute/dib/"> Департамент информационной безопасности</a>
+</div>
+</div>                    <!--/index-->
+                    
+    <div class="page-info">
+        <!--noindex-->
+        
+
+
+<div class="page-info_helpful"
+     data-page-feedback=""
+     data-feedback-url="/Content/PageInfo/RegisterFeedback">
+    <!--noindex-->
+    <div class="helpful" data-helpful="">
+        Страница была полезной?
+        <div class="helpful_btns">
+            <button class="helpful_btn _yes" data-helpful-btn="yes"><i class="helpful_icon"></i><span>Да</span></button>
+            <button class="helpful_btn _no" data-helpful-btn="no"><i class="helpful_icon"></i><span>Нет</span></button>
+        </div>
+    </div>
+    <!--/noindex-->
+</div>
+
+            <div class="page-info_last-update">Последнее обновление страницы: 14.05.2026</div>
+        <!--/noindex-->
+    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+    <div class="offsetMenu footer_margin-left">
+        <div class="footer_main">
+            <div class="col-md-23 col-xl-22 offset-md-1 offset-xl-2 footer-size">
+                <div class="footer_top">
+                    <a class="footer_logo" href="/"></a>
+                    <div class="footer_up gotoUp">
+                        <div class="footer_up_title">Наверх</div>
+                        <div class="footer_up_icon"></div>
+                    </div>
+                </div>
+                
+<div class="footer_contacts">
+<div class="footer_address">107016, Москва, ул. Неглинная, д.&nbsp;12, к. В, Банк
+России</div>
+<div class="footer_phones">
+<div class="footer_phone"><a class="footer_phone_val" href="tel:300">300</a><span>(круглосуточно, бесплатно для&nbsp;звонков с&nbsp;мобильных телефонов)</span></div>
+<div class="footer_phone"><a class="footer_phone_val" href="tel:88003003000">8&nbsp;800 300-30-00</a><span>(круглосуточно, бесплатно для&nbsp;звонков из&nbsp;регионов России)</span></div>
+<div class="footer_phone"><a class="footer_phone_val" href="tel:+74993003000">+7&nbsp;499 300-30-00</a><span>(круглосуточно, в&nbsp;соответствии с&nbsp;тарифами вашего оператора)</span></div>
+
+</div>
+</div>
+<div class="footer_main_block">
+<div class="footer_left-menu">
+<div class="footer_left-menu_item"><a href="/lk_uio/">Личный кабинет участника информационного обмена</a></div>
+<div class="footer_left-menu_item"><a href="/about_br/irp/">Отношения с&nbsp;инвесторами</a></div>
+<div class="footer_left-menu_item"><a href="/rbr/list_inside/">Перечень инсайдерской информации Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/analytics/na_vr/">Официальное опубликование нормативных актов Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/project_na/">Проекты нормативных актов Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/other/holidays/">Перечень нерабочих праздничных дней и&nbsp;перенесенных выходных дней</a></div>
+</div>
+<div class="networks-circle footer_networks">
+<a class="networks-circle_item _vk" href="https://vk.com/cbr_official"></a>
+<a class="networks-circle_item _yt" href="https://www.youtube.com/user/BankofRussia"></a>
+<a class="networks-circle_item _tg" href="https://telegram.me/centralbank_russia" title="Telegram"></a>
+<a class="networks-circle_item _ydzen" href="https://dzen.ru/cbr" title="Яндекс Дзен"></a>
+<a class="networks-circle_item _ok" href="https://ok.ru/group/68858679787580" title="Одноклассники"></a>
+<a class="networks-circle_item _rt" href="https://rutube.ru/channel/23873201/" title="RUTUBE"></a>
+<a class="networks-circle_item _max" href="https://max.ru/cbr_official" title="Макс"></a>
+</div>
+</div>
+<div class="footer_menu">
+<div class="footer_menu_items">
+<div class="footer_menu_item"><a href="/about/">О&nbsp;сайте</a></div>
+<div class="footer_menu_item"><a href="/contacts/">Контакты</a></div>
+<div class="footer_menu_item"><a href="/about_br/anticor/">Противодействие коррупции</a></div>
+<div class="footer_menu_item"><a href="/development/">Технические ресурсы</a></div>
+</div>
+<a class="footer_menu_item _visually-impaired" href="#" title="Версия для слабовидящих">
+	<div class="footer_visually-impaired-icon"></div>
+	<div><span class="visually-impaired-on">Версия для&nbsp;слабовидящих</span><span class="visually-impaired-off">Обычная версия</span></div>
+</a>
+</div>
+
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="col-md-23 col-xl-23 offset-md-1 offset-xl-2 row footer_bottom-container">
+                <div class="footer_bottom_text col-md-11 col-xl-11">&#169; Банк России, 2000–2026.</div>
+<div class="footer_bottom_aic col-md-12 col-xl-11">Дизайн сайта — <a href="https://aic.ru" target="_blank"><img src="/common/images/icons/aic-logo.svg" /></a></div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+
+        <div class="popup-cookies" data-popup-cookies>
+            <div class="popup-cookies_title">
+                На сайте Банка России используются файлы cookie
+            </div>
+            <div class="popup-cookies_subtitle">
+                Оставаясь на <a href="/">www.cbr.ru</a>, вы принимаете
+                <a href='/user_agreement/'>пользовательское соглашение</a>
+            </div>
+            <button class="btn _medium _blue " data-popup-cookies-btn>
+                Подтвердить
+            </button>
+        </div>
+
+    
+<!--[if IE 9]><script>$('body').addClass('ie9')</script><![endif]-->
+<script src="/Modules/Content/Scripts/PageInfo.js?v=v3116962712" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            Content_PageInfo.init($('[data-page-feedback]'));
+        });
+    </script>
+
+
+
+</body>
+</html>

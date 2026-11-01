@@ -1,0 +1,14 @@
+{
+  "rows_identity_verified": 252935,
+  "saved_model_replay_rows": 256,
+  "modes_replayed": 2,
+  "direct_history_rows": 20,
+  "direct_feature_checks": 440,
+  "confirmed_label_delay_respected": true,
+  "training_label_embargo_respected": true,
+  "no_oracle_or_raw_ids": true,
+  "mandatory_hold_preserved": true,
+  "amount_alignment_rejected": true,
+  "protocol_hash_unchanged": true,
+  "hello_world_deleted": true
+}

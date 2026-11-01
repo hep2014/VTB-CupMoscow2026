@@ -1,0 +1,137 @@
+{
+  "gold.dim_channel": {
+    "rows": 6,
+    "sha256": "8e1a02582ae5a0eeb0a7be87376f628d267fb8117c518cb87d21a6e1ed0bb070",
+    "bytes": 251
+  },
+  "gold.dim_metric": {
+    "rows": 5,
+    "sha256": "7e7475e11fa31cc6e636c991a5dac18aa3f61753c357a304aba697aac0f4cb2c",
+    "bytes": 471
+  },
+  "gold.dim_period": {
+    "rows": 6,
+    "sha256": "bd511b0da76aab153ec9c170eceea51ab72d3a55fbacb1e392d772e78eba3141",
+    "bytes": 201
+  },
+  "gold.fact_fraud_statistics": {
+    "rows": 135,
+    "sha256": "44ccc2155c01fc094145e8a403696b74bdeadeecd0fde19239347901a635c8b2",
+    "bytes": 17339
+  },
+  "meta.cbr_snapshots": {
+    "rows": 5,
+    "sha256": "61f47e342ea7a8541bb89832672cf19bd1cb14fc32f4fc7aa43658f615098f9d",
+    "bytes": 1456
+  },
+  "meta.creditcard_snapshots": {
+    "rows": 1,
+    "sha256": "48046e4297c27487c373b004b338cf8cc6974d2111dffc5c0126056ba3f361ca",
+    "bytes": 1534
+  },
+  "meta.datasets": {
+    "rows": 7,
+    "sha256": "53737ff4526c150ac779c2646822a6bc9c68f88ad6a7465b3e6b6f94a089612e",
+    "bytes": 1293
+  },
+  "meta.ieee_snapshots": {
+    "rows": 1,
+    "sha256": "b99b74ace64744cc066bfd5c066a5b6a4aa5793b7854577e2107ed0bd09665b1",
+    "bytes": 212462
+  },
+  "meta.ingestion_runs": {
+    "rows": 11,
+    "sha256": "e07150cb7e644cd404f63c9324d0cc7c6820239b9a9018939fd89617eb8932ee",
+    "bytes": 3011
+  },
+  "meta.paysim_snapshots": {
+    "rows": 1,
+    "sha256": "d13565607737b816740cde2d10084970c360ce23d06181f92406287947860099",
+    "bytes": 509
+  },
+  "meta.quality_results": {
+    "rows": 96,
+    "sha256": "4ee2d3903c7d5a1625838232142945e1216a582a376bf718b986cd20e41a8933",
+    "bytes": 24203
+  },
+  "meta.review_candidate_decisions": {
+    "rows": 1,
+    "sha256": "1488671369cdd5f5838ab00e22856e4d60e9086d614f6df3e3892467db614e2a",
+    "bytes": 311
+  },
+  "meta.review_permissions": {
+    "rows": 0,
+    "sha256": "62a74fd0e2d1e3a59b88b5b71c06ca8d43662c6787430c516b8e0bc28bbbda02",
+    "bytes": 21
+  },
+  "meta.schema_migrations": {
+    "rows": 8,
+    "sha256": "01e3d6efa422e201c8c436a26715320a45744d68cf1348157bb969404aff371e",
+    "bytes": 854
+  },
+  "meta.simulation_runs": {
+    "rows": 1,
+    "sha256": "ba7df518cfdba19fa569d400ce02fe91f812348ec3f1284757c4fee7eb08415b",
+    "bytes": 36693
+  },
+  "meta.sources": {
+    "rows": 7,
+    "sha256": "7fa14fb3f5fa664bd4946677b0f19a22b05620209ee80843dfb1f1aeab0db8dd",
+    "bytes": 1288
+  },
+  "ml.creditcard_transactions": {
+    "rows": 284807,
+    "sha256": "4b05e251ae792df3d104e98fec18b10d2bef48c174f9aba32c9222091a5105d5",
+    "bytes": 120298096
+  },
+  "ml.fdh_customers": {
+    "rows": 5000,
+    "sha256": "34462347a9df49bdeb2709f73cefa9ffb9b1657f4794a4497079fe4f264f0291",
+    "bytes": 3730165
+  },
+  "ml.fdh_terminals": {
+    "rows": 10000,
+    "sha256": "fa88d2f741bc9af5819d0668670b8b0e689f45f0d2a9d4b5da95fa0485ffc27c",
+    "bytes": 740021
+  },
+  "ml.fdh_transactions": {
+    "rows": 1781887,
+    "sha256": "058a6c36352f5d757382fd6c6fe81468da947e330136114d2b99ed010477d13e",
+    "bytes": 279654762
+  },
+  "ml.ieee_identity": {
+    "rows": 286140,
+    "sha256": "2f578d562396d3afd7c846f1d7b9b8eb2bbebd0270fed1f7a9ea1569b6c204a9",
+    "bytes": 217475011
+  },
+  "ml.ieee_transactions": {
+    "rows": 1097231,
+    "sha256": "e1c1d61bddf60a360f0876a0afb38cbee512f0d0cf673d04345e048870ba2890",
+    "bytes": 5788569937
+  },
+  "ml.paysim_transactions": {
+    "rows": 6362620,
+    "sha256": "9b66758f8aba5d5ea50e983593261ec69e54f63768f4dd8f37c508f5cf665aae",
+    "bytes": 1211917695
+  },
+  "silver.cbr_observations": {
+    "rows": 140,
+    "sha256": "ef934ceec8839f7e7f60b44806bfff2173ef55491851c810e8f663142dcf2eec",
+    "bytes": 70160
+  },
+  "silver.review_candidates": {
+    "rows": 338,
+    "sha256": "73a3c3eaceb4a461a52728e3a0717e881440f79e6cdd785555cc5731582d3611",
+    "bytes": 1141862
+  },
+  "silver.review_tags": {
+    "rows": 0,
+    "sha256": "62a74fd0e2d1e3a59b88b5b71c06ca8d43662c6787430c516b8e0bc28bbbda02",
+    "bytes": 21
+  },
+  "silver.reviews": {
+    "rows": 0,
+    "sha256": "62a74fd0e2d1e3a59b88b5b71c06ca8d43662c6787430c516b8e0bc28bbbda02",
+    "bytes": 21
+  }
+}

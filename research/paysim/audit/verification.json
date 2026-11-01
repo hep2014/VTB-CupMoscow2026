@@ -1,0 +1,13 @@
+{
+  "feature_equivalence_rows": 30000,
+  "feature_count": 17,
+  "feature_equivalence_passed": true,
+  "decision_equivalence_cases": 36,
+  "decision_equivalence_passed": true,
+  "metric_profiles_verified": 9,
+  "confusion_counts_and_money_sums_passed": true,
+  "strict_split_totals_passed": true,
+  "original_file_unchanged": true,
+  "dump_sha256_verified": "9ab243e771159d8b5b8df18f12b671afdbc78f7c47849b1f6ea4aaa68b144a3e",
+  "extracted_copy_sha256": "01b03b63eb75f5adc10dd18b7d60713998fabcc370ab22b038fbad478b2787ca"
+}

@@ -1,0 +1,22 @@
+﻿pain_code,pain,cohort,n,count,pct,method
+t,Ограничение перевода,all_explicit,12,12,100.0,ai_evidence_reading_v1_not_human
+t,Ограничение перевода,outgoing,10,10,100.0,ai_evidence_reading_v1_not_human
+t,Ограничение перевода,incoming,2,2,100.0,ai_evidence_reading_v1_not_human
+s,Обращение / эскалация,all_explicit,12,11,91.67,ai_evidence_reading_v1_not_human
+s,Обращение / эскалация,outgoing,10,9,90.0,ai_evidence_reading_v1_not_human
+s,Обращение / эскалация,incoming,2,2,100.0,ai_evidence_reading_v1_not_human
+o,Неясные причины / сроки,all_explicit,12,6,50.0,ai_evidence_reading_v1_not_human
+o,Неясные причины / сроки,outgoing,10,4,40.0,ai_evidence_reading_v1_not_human
+o,Неясные причины / сроки,incoming,2,2,100.0,ai_evidence_reading_v1_not_human
+d,Длительное ожидание,all_explicit,12,6,50.0,ai_evidence_reading_v1_not_human
+d,Длительное ожидание,outgoing,10,5,50.0,ai_evidence_reading_v1_not_human
+d,Длительное ожидание,incoming,2,1,50.0,ai_evidence_reading_v1_not_human
+v,"Фото, видео, представитель",all_explicit,12,5,41.67,ai_evidence_reading_v1_not_human
+v,"Фото, видео, представитель",outgoing,10,5,50.0,ai_evidence_reading_v1_not_human
+v,"Фото, видео, представитель",incoming,2,0,0.0,ai_evidence_reading_v1_not_human
+r,Повторные вопросы / ограничения,all_explicit,12,2,16.67,ai_evidence_reading_v1_not_human
+r,Повторные вопросы / ограничения,outgoing,10,2,20.0,ai_evidence_reading_v1_not_human
+r,Повторные вопросы / ограничения,incoming,2,0,0.0,ai_evidence_reading_v1_not_human
+x,Затронуты карты / доступ,all_explicit,12,10,83.33,ai_evidence_reading_v1_not_human
+x,Затронуты карты / доступ,outgoing,10,9,90.0,ai_evidence_reading_v1_not_human
+x,Затронуты карты / доступ,incoming,2,1,50.0,ai_evidence_reading_v1_not_human

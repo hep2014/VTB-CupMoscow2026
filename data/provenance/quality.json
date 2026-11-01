@@ -1,0 +1,613 @@
+{
+  "database": {
+    "current_database": "vtb_candidate_full_20261031t092746z_533c277a",
+    "version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg12+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14+deb12u1) 12.2.0, 64-bit",
+    "bytes": 4993103539
+  },
+  "catalog": {
+    "schemas": 5,
+    "relations": 33,
+    "columns": 477,
+    "constraints": 295,
+    "indexes": 57,
+    "views": 6,
+    "functions": 9,
+    "triggers": 7,
+    "extensions": 1
+  },
+  "foreign_keys": {
+    "gold.fact_fraud_statistics.fact_fraud_statistics_channel_code_fkey": "passed",
+    "gold.fact_fraud_statistics.fact_fraud_statistics_metric_code_fkey": "passed",
+    "gold.fact_fraud_statistics.fact_fraud_statistics_observation_id_fkey": "passed",
+    "gold.fact_fraud_statistics.fact_fraud_statistics_period_id_fkey": "passed",
+    "gold.fact_fraud_statistics.fact_fraud_statistics_published_run_id_fkey": "passed",
+    "meta.cbr_snapshots.cbr_snapshots_dataset_id_fkey": "passed",
+    "meta.creditcard_snapshots.creditcard_snapshots_dataset_id_fkey": "passed",
+    "meta.creditcard_snapshots.creditcard_snapshots_published_run_id_fkey": "passed",
+    "meta.datasets.datasets_source_id_fkey": "passed",
+    "meta.ieee_snapshots.ieee_snapshots_dataset_id_fkey": "passed",
+    "meta.ieee_snapshots.ieee_snapshots_published_run_id_fkey": "passed",
+    "meta.ingestion_runs.ingestion_runs_dataset_id_fkey": "passed",
+    "meta.paysim_snapshots.paysim_snapshots_dataset_id_fkey": "passed",
+    "meta.paysim_snapshots.paysim_snapshots_published_run_id_fkey": "passed",
+    "meta.quality_results.quality_results_run_id_fkey": "passed",
+    "meta.review_candidate_decisions.review_candidate_decisions_review_id_fkey": "passed",
+    "meta.review_permissions.review_permissions_source_id_fkey": "passed",
+    "meta.simulation_runs.simulation_runs_dataset_id_fkey": "passed",
+    "ml.creditcard_transactions.creditcard_transactions_ingestion_run_id_fkey": "passed",
+    "ml.creditcard_transactions.creditcard_transactions_snapshot_id_fkey": "passed",
+    "ml.fdh_customers.fdh_customers_ingestion_run_id_fkey": "passed",
+    "ml.fdh_customers.fdh_customers_simulation_run_id_fkey": "passed",
+    "ml.fdh_terminals.fdh_terminals_ingestion_run_id_fkey": "passed",
+    "ml.fdh_terminals.fdh_terminals_simulation_run_id_fkey": "passed",
+    "ml.fdh_transactions.fdh_transactions_ingestion_run_id_fkey": "passed",
+    "ml.fdh_transactions.fdh_transactions_simulation_run_id_customer_id_fkey": "passed",
+    "ml.fdh_transactions.fdh_transactions_simulation_run_id_fkey": "passed",
+    "ml.fdh_transactions.fdh_transactions_simulation_run_id_terminal_id_fkey": "passed",
+    "ml.ieee_identity.ieee_identity_ingestion_run_id_fkey": "passed",
+    "ml.ieee_identity.ieee_identity_snapshot_id_data_split_transaction_id_fkey": "passed",
+    "ml.ieee_identity.ieee_identity_snapshot_id_fkey": "passed",
+    "ml.ieee_transactions.ieee_transactions_ingestion_run_id_fkey": "passed",
+    "ml.ieee_transactions.ieee_transactions_snapshot_id_fkey": "passed",
+    "ml.paysim_transactions.paysim_transactions_ingestion_run_id_fkey": "passed",
+    "ml.paysim_transactions.paysim_transactions_snapshot_id_fkey": "passed",
+    "silver.cbr_observations.cbr_observations_ingestion_run_id_fkey": "passed",
+    "silver.cbr_observations.cbr_observations_snapshot_id_source_url_report_year_report_fkey": "passed",
+    "silver.review_candidates.review_candidates_ingestion_run_id_fkey": "passed",
+    "silver.review_candidates.review_candidates_source_id_fkey": "passed",
+    "silver.review_tags.review_tags_review_id_fkey": "passed",
+    "silver.reviews.reviews_ingestion_run_id_fkey": "passed",
+    "silver.reviews.reviews_permission_id_source_id_provenance_id_fkey": "passed",
+    "silver.reviews.reviews_source_id_fkey": "passed"
+  },
+  "sources": [
+    {
+      "source_code": "cbr",
+      "source_type": "official_statistics"
+    },
+    {
+      "source_code": "creditcard",
+      "source_type": "anonymized_card_benchmark"
+    },
+    {
+      "source_code": "fdh_independent",
+      "source_type": "simulation_methodology"
+    },
+    {
+      "source_code": "hse_dano_tbank_reviews_2025",
+      "source_type": "curated_review_candidates"
+    },
+    {
+      "source_code": "ieee_cis",
+      "source_type": "restricted_competition_benchmark"
+    },
+    {
+      "source_code": "paysim",
+      "source_type": "synthetic_benchmark"
+    },
+    {
+      "source_code": "yandex_geo_2023",
+      "source_type": "curated_review_candidates"
+    }
+  ],
+  "datasets": [
+    {
+      "dataset_code": "cbr_quarterly_obds",
+      "data_nature": "real",
+      "source_format": "html",
+      "license_status": "permitted",
+      "source_code": "cbr"
+    },
+    {
+      "dataset_code": "creditcard_transactions",
+      "data_nature": "real",
+      "source_format": "csv",
+      "license_status": "permitted",
+      "source_code": "creditcard"
+    },
+    {
+      "dataset_code": "fdh_simulated_transactions",
+      "data_nature": "simulated",
+      "source_format": "parquet",
+      "license_status": "unverified",
+      "source_code": "fdh_independent"
+    },
+    {
+      "dataset_code": "hse_dano_tbank_reviews_2025_candidate_delivery",
+      "data_nature": "real",
+      "source_format": "jsonl",
+      "license_status": "unverified",
+      "source_code": "hse_dano_tbank_reviews_2025"
+    },
+    {
+      "dataset_code": "ieee_cis_transactions_identity",
+      "data_nature": "real",
+      "source_format": "csv",
+      "license_status": "restricted",
+      "source_code": "ieee_cis"
+    },
+    {
+      "dataset_code": "paysim_transactions",
+      "data_nature": "synthetic",
+      "source_format": "csv",
+      "license_status": "permitted",
+      "source_code": "paysim"
+    },
+    {
+      "dataset_code": "yandex_geo_2023_candidate_delivery",
+      "data_nature": "real",
+      "source_format": "jsonl",
+      "license_status": "permitted",
+      "source_code": "yandex_geo_2023"
+    }
+  ],
+  "runs": [
+    {
+      "dataset_code": "cbr_quarterly_obds",
+      "run_id": "59313eca-366a-4277-9e90-07b73bb15b01",
+      "dataset_id": "a32d582b-32b8-4e8d-8b03-20dd86691974",
+      "status": "succeeded",
+      "started_at": "2026-10-30 16:52:27.188725+00:00",
+      "finished_at": "2026-10-30 16:52:27.649009+00:00",
+      "source_file_hash": "cb41aaf5cc334a7eebc0ed13cc7bd7e13b228ce01be983aa6c10003876cbaec3",
+      "dataset_version": "cbr_html_v1:cb41aaf5cc334a7eebc0ed13cc7bd7e13b228ce01be983aa6c10003876cbaec3",
+      "rows_read": 140,
+      "rows_loaded": 140,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "paysim_transactions",
+      "run_id": "98ffb9ad-dda5-4c37-90bd-d7617d6aac22",
+      "dataset_id": "645de08b-d721-4d03-837a-47abf7dc212e",
+      "status": "succeeded",
+      "started_at": "2026-10-30 16:52:27.669804+00:00",
+      "finished_at": "2026-10-30 16:53:54.821833+00:00",
+      "source_file_hash": "16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+      "dataset_version": "kaggle:2:16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+      "rows_read": 6362620,
+      "rows_loaded": 6362620,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "creditcard_transactions",
+      "run_id": "aae05208-fa92-49a0-9d10-e7043a55a454",
+      "dataset_id": "7e6a84c4-65c9-452f-9fac-8fb822a19f33",
+      "status": "succeeded",
+      "started_at": "2026-10-30 16:53:54.847014+00:00",
+      "finished_at": "2026-10-30 16:54:06.248716+00:00",
+      "source_file_hash": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+      "dataset_version": "kaggle:3:76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+      "rows_read": 284807,
+      "rows_loaded": 284807,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "fdh_simulated_transactions",
+      "run_id": "17f8204a-60d2-471b-aa57-8fa439e71f64",
+      "dataset_id": "67f07f3d-05c1-457f-95c5-b73341596874",
+      "status": "succeeded",
+      "started_at": "2026-10-30 16:54:19.997360+00:00",
+      "finished_at": "2026-10-30 16:55:36.079926+00:00",
+      "source_file_hash": "55170eef89fa661920d4694b6d639635f9a4df1625403b85962e1a67c7e62f9d",
+      "dataset_version": "fdh_independent_v1:71b0de50-3da3-5a22-ba9f-4a08c3f95387",
+      "rows_read": 1781887,
+      "rows_loaded": 1781887,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "ieee_cis_transactions_identity",
+      "run_id": "da0d7d35-6114-4e9b-b19a-d9134467618e",
+      "dataset_id": "7245b829-d698-461d-8b49-ef66a424caff",
+      "status": "succeeded",
+      "started_at": "2026-10-30 16:55:36.109390+00:00",
+      "finished_at": "2026-10-30 17:28:00.980845+00:00",
+      "source_file_hash": "a01f77eaa792c8346a876102fa3c717f7361ccd4e14fe1a57735b86816c7ab75",
+      "dataset_version": "files-sha256:a01f77eaa792c8346a876102fa3c717f7361ccd4e14fe1a57735b86816c7ab75",
+      "rows_read": 1383371,
+      "rows_loaded": 1383371,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "cbr_quarterly_obds",
+      "run_id": "73df9756-7fd6-4e29-ae0d-4f8817cdfb0a",
+      "dataset_id": "a32d582b-32b8-4e8d-8b03-20dd86691974",
+      "status": "succeeded",
+      "started_at": "2026-10-30 17:32:11.667043+00:00",
+      "finished_at": "2026-10-30 17:32:12.155490+00:00",
+      "source_file_hash": "cb41aaf5cc334a7eebc0ed13cc7bd7e13b228ce01be983aa6c10003876cbaec3",
+      "dataset_version": "cbr_html_v1:cb41aaf5cc334a7eebc0ed13cc7bd7e13b228ce01be983aa6c10003876cbaec3",
+      "rows_read": 140,
+      "rows_loaded": 0,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "paysim_transactions",
+      "run_id": "1e71ecab-a1c2-4169-afe8-d6f1ef9e2dc1",
+      "dataset_id": "645de08b-d721-4d03-837a-47abf7dc212e",
+      "status": "succeeded",
+      "started_at": "2026-10-30 17:32:12.181894+00:00",
+      "finished_at": "2026-10-30 17:32:13.786885+00:00",
+      "source_file_hash": "16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+      "dataset_version": "kaggle:2:16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+      "rows_read": 6362620,
+      "rows_loaded": 0,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "creditcard_transactions",
+      "run_id": "eb8a4c30-e616-4d37-975d-42b75ede5a5b",
+      "dataset_id": "7e6a84c4-65c9-452f-9fac-8fb822a19f33",
+      "status": "succeeded",
+      "started_at": "2026-10-30 17:32:13.823190+00:00",
+      "finished_at": "2026-10-30 17:32:18.755427+00:00",
+      "source_file_hash": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+      "dataset_version": "kaggle:3:76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+      "rows_read": 284807,
+      "rows_loaded": 0,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "fdh_simulated_transactions",
+      "run_id": "e245bd0e-9006-43c9-b7eb-d01295bb6767",
+      "dataset_id": "67f07f3d-05c1-457f-95c5-b73341596874",
+      "status": "succeeded",
+      "started_at": "2026-10-30 17:32:32.485349+00:00",
+      "finished_at": "2026-10-30 17:32:55.144980+00:00",
+      "source_file_hash": "55170eef89fa661920d4694b6d639635f9a4df1625403b85962e1a67c7e62f9d",
+      "dataset_version": "fdh_independent_v1:71b0de50-3da3-5a22-ba9f-4a08c3f95387",
+      "rows_read": 1781887,
+      "rows_loaded": 0,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "hse_dano_tbank_reviews_2025_candidate_delivery",
+      "run_id": "3b807075-61e4-4310-9730-f728e583b0bf",
+      "dataset_id": "043eef79-c3fd-481c-a3b3-f68f64fdf3c8",
+      "status": "succeeded",
+      "started_at": "2026-10-31 09:28:34.105577+00:00",
+      "finished_at": "2026-10-31 09:28:34.479030+00:00",
+      "source_file_hash": "7fad8060021715b9cbf01ca7a0adeece61b28230364aa74e8415e95d725d0548",
+      "dataset_version": "dbcc81fd2bafd3f333b9e817872112f1acf834285a400e7c8c7d3e8b80808412:1b18f3e15b42eb163f1c41ebbf26f8ab12ae7c10143bc30f5b40197b010b3bf2",
+      "rows_read": 300,
+      "rows_loaded": 300,
+      "rows_rejected": 0,
+      "error_message": null
+    },
+    {
+      "dataset_code": "yandex_geo_2023_candidate_delivery",
+      "run_id": "6e7d9654-2e85-46ae-913c-a3854a79a540",
+      "dataset_id": "2efbd5b9-b0e7-42d0-94f1-8155c8d2f1ff",
+      "status": "succeeded",
+      "started_at": "2026-10-31 09:28:34.722177+00:00",
+      "finished_at": "2026-10-31 09:28:34.779697+00:00",
+      "source_file_hash": "10dee53b12dd9dc99b499f9d3fdc0617fd46ac3ebd594654fa5e89e0314a040f",
+      "dataset_version": "a66e7de931907deded319e45d770cce9e6c6896f67baa798517b6a835ed77c84:8968d9531865b2549ce1d732a8399fb7cab4701356048621ca50932a1b325612",
+      "rows_read": 38,
+      "rows_loaded": 38,
+      "rows_rejected": 0,
+      "error_message": null
+    }
+  ],
+  "quality": [
+    {
+      "severity": "error",
+      "status": "passed",
+      "results": 78
+    },
+    {
+      "severity": "info",
+      "status": "passed",
+      "results": 11
+    },
+    {
+      "severity": "warning",
+      "status": "passed",
+      "results": 7
+    }
+  ],
+  "migration_checksums_match_files": true,
+  "failed_history_allowed": true,
+  "checks": {
+    "invalid_run_lifecycle": 0,
+    "failed_quality_for_success": 0,
+    "quality_after_completion": 0,
+    "runs_without_quality": 0,
+    "invalid_gold_lineage": 0,
+    "ieee_cross_split_ids": 0,
+    "reviews_unapproved_text": 0,
+    "cbr_dataset_or_run_status": 0,
+    "gold_dataset_or_run_status": 0,
+    "paysim_row_run_mismatch": 0,
+    "paysim_published_run_source_mismatch": 0,
+    "creditcard_row_run_mismatch": 0,
+    "creditcard_published_run_source_mismatch": 0,
+    "ieee_row_run_mismatch": 0,
+    "ieee_published_run_source_mismatch": 0
+  },
+  "inventory": {
+    "cbr_silver": {
+      "rows": 140
+    },
+    "cbr_gold": {
+      "rows": 135
+    },
+    "paysim": {
+      "rows": 6362620,
+      "fraud": 8213,
+      "flagged": 16,
+      "min": 1,
+      "max": 743
+    },
+    "creditcard": {
+      "rows": 284807,
+      "fraud": 492,
+      "zero_amount": 1825,
+      "min": 0,
+      "max": 172792
+    },
+    "fdh": {
+      "rows": 1781887,
+      "fraud": 14753,
+      "min": "2018-04-01 00:00:26",
+      "max": "2018-09-30 23:59:59"
+    },
+    "ieee": [
+      {
+        "data_split": "test",
+        "transactions": 506691,
+        "identity": 141907,
+        "fraud": 0,
+        "unknown": 506691
+      },
+      {
+        "data_split": "train",
+        "transactions": 590540,
+        "identity": 144233,
+        "fraud": 20663,
+        "unknown": 0
+      }
+    ],
+    "reviews": {
+      "reviews": 0,
+      "published": 0,
+      "permissions": 0,
+      "tags": 0
+    }
+  },
+  "snapshots": {
+    "paysim": [
+      {
+        "snapshot_id": "62a5aa13-7e48-50b9-9945-0a5d6451b0ab",
+        "published_at": "2026-10-30 16:53:54.806849+00:00",
+        "status": "succeeded",
+        "source_file_hash": "16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+        "rows_read": 6362620,
+        "rows_loaded": 6362620,
+        "rows_rejected": 0,
+        "dataset_matches": true
+      }
+    ],
+    "creditcard": [
+      {
+        "snapshot_id": "dfa5afb4-686a-52aa-b508-4e12d379b228",
+        "published_at": "2026-10-30 16:54:06.225416+00:00",
+        "status": "succeeded",
+        "source_file_hash": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+        "rows_read": 284807,
+        "rows_loaded": 284807,
+        "rows_rejected": 0,
+        "dataset_matches": true
+      }
+    ],
+    "ieee": [
+      {
+        "snapshot_id": "646949a7-9f20-5f40-8f0b-d46b305dc449",
+        "published_at": "2026-10-30 17:27:26.385031+00:00",
+        "status": "succeeded",
+        "source_file_hash": "a01f77eaa792c8346a876102fa3c717f7361ccd4e14fe1a57735b86816c7ab75",
+        "rows_read": 1383371,
+        "rows_loaded": 1383371,
+        "rows_rejected": 0,
+        "dataset_matches": true
+      }
+    ]
+  },
+  "snapshot_count_reconciliation": {
+    "paysim": [
+      {
+        "snapshot_id": "62a5aa13-7e48-50b9-9945-0a5d6451b0ab",
+        "row_count": 6362620,
+        "fraud_count": 8213,
+        "actual_rows": 6362620,
+        "actual_fraud": 8213
+      }
+    ],
+    "creditcard": [
+      {
+        "snapshot_id": "dfa5afb4-686a-52aa-b508-4e12d379b228",
+        "row_count": 284807,
+        "fraud_count": 492,
+        "actual_rows": 284807,
+        "actual_fraud": 492
+      }
+    ]
+  },
+  "sizes": [
+    {
+      "schemaname": "ml",
+      "relname": "ieee_transactions",
+      "total_bytes": 2813362176,
+      "index_bytes": 149979136
+    },
+    {
+      "schemaname": "ml",
+      "relname": "paysim_transactions",
+      "total_bytes": 1173037056,
+      "index_bytes": 258392064
+    },
+    {
+      "schemaname": "ml",
+      "relname": "fdh_transactions",
+      "total_bytes": 615374848,
+      "index_bytes": 390504448
+    },
+    {
+      "schemaname": "ml",
+      "relname": "ieee_identity",
+      "total_bytes": 274841600,
+      "index_bytes": 39927808
+    },
+    {
+      "schemaname": "ml",
+      "relname": "creditcard_transactions",
+      "total_bytes": 101376000,
+      "index_bytes": 11583488
+    },
+    {
+      "schemaname": "ml",
+      "relname": "fdh_customers",
+      "total_bytes": 2531328,
+      "index_bytes": 221184
+    },
+    {
+      "schemaname": "ml",
+      "relname": "fdh_terminals",
+      "total_bytes": 1310720,
+      "index_bytes": 425984
+    },
+    {
+      "schemaname": "silver",
+      "relname": "review_candidates",
+      "total_bytes": 1179648,
+      "index_bytes": 204800
+    },
+    {
+      "schemaname": "silver",
+      "relname": "cbr_observations",
+      "total_bytes": 172032,
+      "index_bytes": 73728
+    },
+    {
+      "schemaname": "meta",
+      "relname": "ieee_snapshots",
+      "total_bytes": 122880,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "simulation_runs",
+      "total_bytes": 106496,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "gold",
+      "relname": "fact_fraud_statistics",
+      "total_bytes": 106496,
+      "index_bytes": 49152
+    },
+    {
+      "schemaname": "meta",
+      "relname": "quality_results",
+      "total_bytes": 98304,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "datasets",
+      "total_bytes": 65536,
+      "index_bytes": 49152
+    },
+    {
+      "schemaname": "meta",
+      "relname": "cbr_snapshots",
+      "total_bytes": 65536,
+      "index_bytes": 49152
+    },
+    {
+      "schemaname": "meta",
+      "relname": "sources",
+      "total_bytes": 49152,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "creditcard_snapshots",
+      "total_bytes": 49152,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "paysim_snapshots",
+      "total_bytes": 49152,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "silver",
+      "relname": "reviews",
+      "total_bytes": 49152,
+      "index_bytes": 40960
+    },
+    {
+      "schemaname": "meta",
+      "relname": "review_candidate_decisions",
+      "total_bytes": 49152,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "ingestion_runs",
+      "total_bytes": 49152,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "gold",
+      "relname": "dim_period",
+      "total_bytes": 40960,
+      "index_bytes": 32768
+    },
+    {
+      "schemaname": "meta",
+      "relname": "review_permissions",
+      "total_bytes": 32768,
+      "index_bytes": 24576
+    },
+    {
+      "schemaname": "gold",
+      "relname": "dim_channel",
+      "total_bytes": 32768,
+      "index_bytes": 16384
+    },
+    {
+      "schemaname": "gold",
+      "relname": "dim_metric",
+      "total_bytes": 32768,
+      "index_bytes": 16384
+    },
+    {
+      "schemaname": "meta",
+      "relname": "schema_migrations",
+      "total_bytes": 32768,
+      "index_bytes": 16384
+    },
+    {
+      "schemaname": "silver",
+      "relname": "review_tags",
+      "total_bytes": 16384,
+      "index_bytes": 8192
+    }
+  ],
+  "cbr_current_selection": {
+    "selected": 135,
+    "revised_grains": 0,
+    "matches_gold": true
+  }
+}

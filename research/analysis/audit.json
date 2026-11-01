@@ -1,0 +1,27 @@
+{
+  "dump_sha256": "9ab243e771159d8b5b8df18f12b671afdbc78f7c47849b1f6ea4aaa68b144a3e",
+  "table_rows": {
+    "gold.dim_channel": 6,
+    "gold.dim_metric": 5,
+    "gold.dim_period": 6,
+    "gold.fact_fraud_statistics": 135,
+    "meta.cbr_snapshots": 5,
+    "meta.creditcard_snapshots": 1,
+    "meta.ieee_snapshots": 1,
+    "meta.paysim_snapshots": 1,
+    "meta.review_candidate_decisions": 1,
+    "meta.simulation_runs": 1,
+    "meta.sources": 7,
+    "silver.cbr_observations": 140,
+    "silver.review_candidates": 338,
+    "silver.review_tags": 0,
+    "silver.reviews": 0
+  },
+  "gold_silver_all_values_match": true,
+  "unique_reviews": true,
+  "limitations": [
+    "ML tables not fully scanned; inventory figures come from supplied quality metadata.",
+    "No transaction decisions or legitimate-transaction ground truth for SBP in this dump.",
+    "No new human approvals; proposed tags are not validated labels."
+  ]
+}

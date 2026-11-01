@@ -1,0 +1,61 @@
+{
+  "hse_dano_tbank_reviews_2025": {
+    "n": 300,
+    "proposed_relevance": {
+      "A": 300
+    },
+    "human_decision": {
+      "approve": 1,
+      "pending": 299
+    },
+    "months": {
+      "2025-05-01": 47,
+      "2025-04-01": 31,
+      "2025-01-01": 29,
+      "2025-06-01": 46,
+      "2025-10-01": 17,
+      "2025-09-01": 21,
+      "2025-02-01": 28,
+      "2025-03-01": 27,
+      "2025-08-01": 24,
+      "2025-07-01": 26,
+      "2025-11-01": 4
+    },
+    "proposed_tags": {
+      "support_contact": 143,
+      "transfer_restricted": 166,
+      "branch_visit": 16,
+      "no_explanation": 21,
+      "long_unblock": 5,
+      "repeated_verification": 5
+    },
+    "confirmed_tags": {
+      "long_unblock": 1,
+      "no_explanation": 1,
+      "support_contact": 1,
+      "transfer_restricted": 1
+    },
+    "explicit_sbp_n": 17
+  },
+  "yandex_geo_2023": {
+    "n": 38,
+    "proposed_relevance": {
+      "B": 23,
+      "A": 15
+    },
+    "human_decision": {
+      "pending": 38
+    },
+    "months": {
+      "null": 38
+    },
+    "proposed_tags": {
+      "branch_visit": 8,
+      "support_contact": 4,
+      "transfer_restricted": 5,
+      "no_explanation": 2
+    },
+    "confirmed_tags": {},
+    "explicit_sbp_n": 0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-01",
+  "dataset": "PaySim full supplied snapshot",
+  "rows": 6362620,
+  "balances_forbidden": true,
+  "identity_features_forbidden": true,
+  "fraud_labels_in_history": false,
+  "history": "strictly earlier step only",
+  "splits": {
+    "train": [
+      1,
+      240
+    ],
+    "model_validation": [
+      241,
+      280
+    ],
+    "calibration": [
+      281,
+      317
+    ],
+    "policy_validation": [
+      318,
+      354
+    ],
+    "test": [
+      355,
+      743
+    ]
+  },
+  "test_reuse_disclosure": "This time range was inspected in the earlier audit. It is held out from this run tuning, but not an independently untouched corpus.",
+  "primary_hypothesis": "Fewer legitimate interventions while at least as many fraud events and at least as much fraud amount are flagged on the same test.",
+  "policy_validation_targets": {
+    "fraud_count_recall": 0.9,
+    "fraud_amount_recall": 0.95
+  },
+  "selection": "Models by AP on model_validation; calibration by independent calibration; policy parameters and threshold by minimum FP under recall targets on policy_validation. Freeze before test evaluation.",
+  "baselines": [
+    "simple amount/type rule tuned on policy_validation",
+    "transaction-only model with tuned threshold",
+    "history model with tuned threshold"
+  ],
+  "policy_search": {
+    "expert_weight": [
+      0,
+      0.5,
+      1
+    ],
+    "amount_alpha": [
+      0,
+      0.5,
+      1
+    ],
+    "history_beta": [
+      -0.5,
+      0,
+      0.5
+    ],
+    "transfer_gamma": [
+      -0.5,
+      0,
+      0.5
+    ]
+  },
+  "no_simulated_perfect_confirmation": true,
+  "money": "PaySim units, not RUB",
+  "model_grid": [
+    {
+      "num_leaves": 15,
+      "scale_pos_weight": 1
+    },
+    {
+      "num_leaves": 31,
+      "scale_pos_weight": 1
+    },
+    {
+      "num_leaves": 31,
+      "scale_pos_weight": 10
+    }
+  ],
+  "model_common": {
+    "n_estimators": 800,
+    "learning_rate": 0.04,
+    "min_child_samples": 150,
+    "min_child_weight": 5,
+    "reg_lambda": 10,
+    "max_delta_step": 1,
+    "n_jobs": 4,
+    "random_state": 20261101,
+    "early_stopping_rounds": 60
+  }
+}

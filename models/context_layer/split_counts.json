@@ -1,0 +1,32 @@
+{
+  "train": {
+    "n": 516356,
+    "fraud": 4537,
+    "min_day": 30,
+    "max_day": 82
+  },
+  "model_validation": {
+    "n": 194662,
+    "fraud": 1734,
+    "min_day": 90,
+    "max_day": 109
+  },
+  "calibration": {
+    "n": 127195,
+    "fraud": 1127,
+    "min_day": 117,
+    "max_day": 129
+  },
+  "policy_validation": {
+    "n": 126733,
+    "fraud": 1125,
+    "min_day": 137,
+    "max_day": 149
+  },
+  "test": {
+    "n": 252935,
+    "fraud": 2195,
+    "min_day": 157,
+    "max_day": 182
+  }
+}

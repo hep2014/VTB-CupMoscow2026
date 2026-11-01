@@ -1,0 +1,50 @@
+{
+  "protocol_sha256": "a4363fadb260d99d2392750ddcbfe952f3e3b52580e539963720a677b7245185",
+  "model_choices": {
+    "transaction": {
+      "selected_index": 0,
+      "selected": {
+        "index": 0,
+        "params": {
+          "num_leaves": 15,
+          "scale_pos_weight": 1
+        },
+        "best_iteration": 320,
+        "validation_ap": 0.38688721287816613,
+        "validation_auc": 0.9534443668017378,
+        "finite_scores": true
+      }
+    },
+    "history": {
+      "selected_index": 2,
+      "selected": {
+        "index": 2,
+        "params": {
+          "num_leaves": 31,
+          "scale_pos_weight": 10
+        },
+        "best_iteration": 297,
+        "validation_ap": 0.49809877777024764,
+        "validation_auc": 0.9725465300780956,
+        "finite_scores": true
+      }
+    }
+  },
+  "policy": {
+    "parameters": {
+      "expert_weight": 1,
+      "amount_alpha": 0,
+      "history_beta": 0,
+      "transfer_gamma": -0.5
+    },
+    "threshold": -7.547376721527199,
+    "reference_amount": 75924.72
+  },
+  "test_evaluated_yet": false,
+  "selection_inputs": [
+    "train",
+    "model_validation",
+    "calibration",
+    "policy_validation"
+  ]
+}

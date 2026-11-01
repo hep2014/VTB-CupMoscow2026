@@ -1,0 +1,26 @@
+[
+  {
+    "channel_code": "all",
+    "channel_name_ru": "Все каналы"
+  },
+  {
+    "channel_code": "cards",
+    "channel_name_ru": "Карты"
+  },
+  {
+    "channel_code": "accounts",
+    "channel_name_ru": "Счета"
+  },
+  {
+    "channel_code": "sbp",
+    "channel_name_ru": "СБП"
+  },
+  {
+    "channel_code": "electronic_wallets",
+    "channel_name_ru": "Электронные кошельки"
+  },
+  {
+    "channel_code": "without_account",
+    "channel_name_ru": "Без открытия счета"
+  }
+]

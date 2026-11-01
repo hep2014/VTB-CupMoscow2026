@@ -1,0 +1,20 @@
+[
+  {
+    "index": 0,
+    "params": {
+      "num_leaves": 15
+    },
+    "ap": 0.6279382903459576,
+    "auc": 0.8637727028895135,
+    "best_iteration": 399
+  },
+  {
+    "index": 1,
+    "params": {
+      "num_leaves": 31
+    },
+    "ap": 0.6264384799408034,
+    "auc": 0.8628873184165806,
+    "best_iteration": 257
+  }
+]

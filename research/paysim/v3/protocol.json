@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-01",
+  "name": "Type-specific contextual verification over frozen v2 history model",
+  "dataset": "PaySim, full supplied snapshot",
+  "test_reused": true,
+  "test_reuse_disclosure": "Final interval 355-743 has already been inspected during v1/v2 development; this is not independent external confirmation.",
+  "splits": {
+    "train": [
+      1,
+      240
+    ],
+    "model_validation": [
+      241,
+      280
+    ],
+    "calibration": [
+      281,
+      317
+    ],
+    "policy_validation": [
+      318,
+      354
+    ],
+    "test": [
+      355,
+      743
+    ]
+  },
+  "policy_subwindows": [
+    [
+      318,
+      335
+    ],
+    [
+      336,
+      354
+    ]
+  ],
+  "baseline": "frozen v2 history_model + global validation threshold",
+  "baseline_model_sha256": "d236d937803d883c2e9b65e77db23ae57ad976481788a0aa3e361720083e79ff",
+  "expert_types": [
+    "TRANSFER",
+    "CASH_OUT"
+  ],
+  "expert_grid": [
+    {
+      "num_leaves": 15,
+      "scale_pos_weight": 1
+    },
+    {
+      "num_leaves": 31,
+      "scale_pos_weight": 10
+    }
+  ],
+  "model_common": {
+    "n_estimators": 800,
+    "learning_rate": 0.04,
+    "min_child_samples": 100,
+    "min_child_weight": 5,
+    "reg_lambda": 10,
+    "max_delta_step": 1,
+    "n_jobs": 4,
+    "random_state": 20261101
+  },
+  "early_stopping_rounds": 60,
+  "policy_grid": {
+    "expert_weight": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "amount_alpha": [
+      0,
+      0.25,
+      0.5
+    ],
+    "guard_logit_margin": [
+      1,
+      2,
+      4,
+      null
+    ]
+  },
+  "selection_constraint": "For each type and each policy subwindow: TP count >= baseline TP and flagged fraud amount >= baseline flagged fraud amount. Choose minimum total FP; all choices before test evaluation.",
+  "primary_hypothesis": "On the same test: fewer FP, no fewer TP and no larger unflagged fraud amount than frozen rich-model baseline.",
+  "other_types": "unchanged baseline decisions",
+  "no_balances": true,
+  "all_restrictions_counted": true,
+  "no_perfect_delay_assumption": true
+}

@@ -1,0 +1,7 @@
+# Python 3.12; inference, experiments and figures
+numpy==2.5.4
+pandas==3.1.0
+lightgbm==4.7.0
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2

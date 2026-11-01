@@ -1,0 +1,34 @@
+{
+  "rows": 6362620,
+  "fraud_n": 8213,
+  "fraud_share": 0.001290820448180152,
+  "min_step": 1,
+  "max_step": 743,
+  "raw_monotonic_step": false,
+  "fraud_by_type": {
+    "CASH_OUT": 4116,
+    "TRANSFER": 4097,
+    "CASH_IN": 0,
+    "DEBIT": 0,
+    "PAYMENT": 0
+  },
+  "type_counts": {
+    "CASH_OUT": 2237500,
+    "PAYMENT": 2151495,
+    "CASH_IN": 1399284,
+    "TRANSFER": 532909,
+    "DEBIT": 41432
+  },
+  "name_orig": {
+    "unique": 6353307,
+    "single_event_accounts": 6344009,
+    "single_event_account_share": 0.998536510198547,
+    "max_events": 3
+  },
+  "name_dest": {
+    "unique": 2722362,
+    "single_event_accounts": 2262704,
+    "single_event_account_share": 0.8311547105050687,
+    "max_events": 113
+  }
+}

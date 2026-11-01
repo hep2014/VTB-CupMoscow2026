@@ -1,0 +1,33 @@
+{
+  "features": {
+    "amount": 68.97000122070312,
+    "log_amount": 4.248066425323486,
+    "hour_sin": 0.00036361024831421673,
+    "hour_cos": 0.9999999403953552,
+    "weekend": 0.0,
+    "terminal_log_count_1": 0.0,
+    "terminal_known_risk_1": 0.004999999888241291,
+    "terminal_known_support_1": 0.0,
+    "terminal_log_count_7": 0.0,
+    "terminal_known_risk_7": 0.004878048785030842,
+    "terminal_known_support_7": 1.7917594909667969,
+    "terminal_log_count_30": 2.8332133293151855,
+    "terminal_known_risk_30": 0.004444444552063942,
+    "terminal_known_support_30": 3.25809645652771,
+    "customer_log_count_1": 1.0986123085021973,
+    "customer_log_mean_1": 4.43757963180542,
+    "log_amount_vs_customer_1": -0.18951301276683807,
+    "customer_log_count_7": 2.70805025100708,
+    "customer_log_mean_7": 4.078916549682617,
+    "log_amount_vs_customer_7": 0.16914993524551392,
+    "customer_log_count_30": 4.077537536621094,
+    "customer_log_mean_30": 4.132359981536865,
+    "log_amount_vs_customer_30": 0.11570671200752258,
+    "customer_log_std_30": 3.244537115097046,
+    "customer_amount_z_30": 0.298059344291687,
+    "customer_terminal_log_count": 2.079441547393799,
+    "customer_terminal_new": 0.0
+  },
+  "amount": 68.97,
+  "mandatory_hold": false
+}

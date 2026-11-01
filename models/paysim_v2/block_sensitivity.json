@@ -1,0 +1,36 @@
+{
+  "transaction_threshold": {
+    "day_blocks": 17,
+    "draws": 2000,
+    "fp_difference_interval": [
+      -154382.15,
+      -35909.55
+    ],
+    "count_recall_difference_interval": [
+      -0.009649950347567032,
+      0.002795769138180067
+    ],
+    "unflagged_amount_difference_interval": [
+      -1118422.3804999995,
+      10571132.72675
+    ],
+    "limitation": "Descriptive paired day-block resampling of one reused synthetic holdout; not independent external validation."
+  },
+  "history_threshold": {
+    "day_blocks": 17,
+    "draws": 2000,
+    "fp_difference_interval": [
+      -1023.025,
+      -417.97500000000014
+    ],
+    "count_recall_difference_interval": [
+      0.0,
+      0.0
+    ],
+    "unflagged_amount_difference_interval": [
+      0.0,
+      0.0
+    ],
+    "limitation": "Descriptive paired day-block resampling of one reused synthetic holdout; not independent external validation."
+  }
+}

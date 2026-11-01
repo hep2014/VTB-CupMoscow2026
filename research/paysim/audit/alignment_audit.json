@@ -1,0 +1,10 @@
+{
+  "test_n": 1272524,
+  "row_id_matches": 6783,
+  "amount_matches": 7050,
+  "actual_label_mismatches": 3790,
+  "train_max_step": 355,
+  "test_min_step": 355,
+  "shared_boundary_step": true,
+  "note": "COPY order is one legitimate unordered SQL result; source IDs prove positional misalignment in this replay."
+}
